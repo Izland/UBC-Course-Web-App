@@ -1,4 +1,4 @@
-A web app made for my Introduction to Software Engineering Course.
+A web app made for my Introduction to Software Engineering Course written in TypeScript.
 
 -Queries UBC course data and can be selected and sorted by course properties (seats, avg grade, etc.) with a frontend UI connected to a Restify server.
 
