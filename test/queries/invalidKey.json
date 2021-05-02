@@ -1,0 +1,19 @@
+{
+    "title": "invalid key in columns, insight error",
+    "query": {
+        "WHERE": {
+            "EQ": {
+                "courses_avg": 97
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_dept",
+                "courses_hello"
+            ],
+            "ORDER": "courses_avg"
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

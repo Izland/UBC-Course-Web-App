@@ -1,0 +1,40 @@
+{
+    "title": "throw InsightError, code written wrong",
+    "query": {
+        "WHERE": {
+            "AND": [
+                {
+                    "AND": [
+                        {
+                            "LT": {
+                                "courses_avg": 50
+                            }
+                        },
+                        {
+                            "E": {
+                                "courses_avg": 50
+                            }
+                        }
+                    ]
+                },
+                {
+                    "IS": {
+                        "courses_dept": "math"
+                    }
+                }
+            ]
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_dept",
+                "courses_avg",
+                "courses_id"
+            ],
+            "ORDER": "courses_avg"
+        }
+
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}
+

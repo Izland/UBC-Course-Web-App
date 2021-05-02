@@ -1,0 +1,40 @@
+{
+    "title": "SELECT courses where more than 20 people audit it, ORDERED by number of auditing students",
+    "query": {
+        "WHERE": {
+            "GT": {
+                "courses_audit": 20
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_dept",
+                "courses_avg",
+                "courses_audit",
+                "courses_pass"
+            ],
+            "ORDER": "courses_audit"
+        }
+    },
+    "isQueryValid": true,
+    "result": [
+        {
+            "courses_dept": "rhsc",
+            "courses_avg": 86.89,
+            "courses_audit": 21,
+            "courses_pass": 18
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_avg": 90.53,
+            "courses_audit": 21,
+            "courses_pass": 59
+        },
+        {
+            "courses_dept": "rhsc",
+            "courses_avg": 88.79,
+            "courses_audit": 23,
+            "courses_pass": 14
+        }
+    ]
+}

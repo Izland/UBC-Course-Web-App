@@ -1,0 +1,8 @@
+{
+    "title": "Valid Options with no body query",
+    "query": {
+        "OPTIONS": { "COLUMNS": ["courses_avg"]}
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

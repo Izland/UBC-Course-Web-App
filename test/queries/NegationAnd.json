@@ -1,0 +1,55 @@
+{
+    "title": "Very invalid query",
+    "query": {
+        "WHERE": {
+            "NOT": {
+                "AND": [
+                    {
+                        "GT": {
+                            "courses_avg": 1
+                        }
+                    },
+                    {
+                        "GT": {
+                            "courses_avg": 4
+                        }
+                    }
+                ]
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_dept",
+                "courses_avg"
+            ],
+            "ORDER": "courses_avg"
+        }
+    },
+    "isQueryValid": true,
+    "result": [
+        {
+            "courses_dept": "lfs",
+            "courses_avg": 0
+        },
+        {
+            "courses_dept": "lfs",
+            "courses_avg": 0
+        },
+        {
+            "courses_dept": "frst",
+            "courses_avg": 0
+        },
+        {
+            "courses_dept": "wood",
+            "courses_avg": 1
+        },
+        {
+            "courses_dept": "busi",
+            "courses_avg": 4
+        },
+        {
+            "courses_dept": "busi",
+            "courses_avg": 4
+        }
+    ]
+}

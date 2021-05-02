@@ -1,0 +1,19 @@
+{
+    "title": "NOT year, insight error",
+    "query": {
+        "WHERE": {
+            "NOT": {
+                "courses_year": 2000
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_dept",
+                "courses_avg"
+            ],
+            "ORDER": "courses_avg"
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

@@ -1,0 +1,64 @@
+{
+    "title": "SELECT all courses where less than 5 people pass the course, ORDERED by number of passing students",
+    "query": {
+        "WHERE": {
+            "LT": {
+                "courses_pass": 1
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_dept",
+                "courses_avg",
+                "courses_fail",
+                "courses_pass"
+            ],
+            "ORDER": "courses_pass"
+        }
+    },
+    "isQueryValid": true,
+    "result": [
+        {
+            "courses_dept": "wood",
+            "courses_avg": 1,
+            "courses_fail": 2,
+            "courses_pass": 0
+        },
+        {
+            "courses_dept": "lfs",
+            "courses_avg": 0,
+            "courses_fail": 1,
+            "courses_pass": 0
+        },
+        {
+            "courses_dept": "lfs",
+            "courses_avg": 0,
+            "courses_fail": 1,
+            "courses_pass": 0
+        },
+        {
+            "courses_dept": "frst",
+            "courses_avg": 0,
+            "courses_fail": 1,
+            "courses_pass": 0
+        },
+        {
+            "courses_dept": "fopr",
+            "courses_avg": 4.5,
+            "courses_fail": 4,
+            "courses_pass": 0
+        },
+        {
+            "courses_dept": "busi",
+            "courses_avg": 4,
+            "courses_fail": 1,
+            "courses_pass": 0
+        },
+        {
+            "courses_dept": "busi",
+            "courses_avg": 4,
+            "courses_fail": 1,
+            "courses_pass": 0
+        }
+    ]
+}

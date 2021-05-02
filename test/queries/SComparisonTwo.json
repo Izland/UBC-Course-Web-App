@@ -1,0 +1,17 @@
+{
+    "title": "SELECT title, avg WHERE IS",
+    "query": {
+        "WHERE": {
+            "IS": {"courses_department": "adhe", "courses_instructor": "palacios, carolina"}
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_title",
+                "courses_instructor"
+            ],
+            "ORDER": "courses_avg"
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

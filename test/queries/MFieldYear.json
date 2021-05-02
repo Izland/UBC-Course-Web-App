@@ -1,0 +1,3880 @@
+{
+    "title": "SELECT title, avg WHERE year > 2015",
+    "query": {
+        "WHERE": {
+            "GT": {
+                "courses_year": 2015
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_title",
+                "courses_avg"
+            ],
+            "ORDER": "courses_avg"
+        }
+    },
+    "isQueryValid": true,
+    "result": [
+        {
+            "courses_title": "found re apprai",
+            "courses_avg": 4
+        },
+        {
+            "courses_title": "intro acad writ",
+            "courses_avg": 51.14
+        },
+        {
+            "courses_title": "intro acad writ",
+            "courses_avg": 52.4
+        },
+        {
+            "courses_title": "intro acad writ",
+            "courses_avg": 52.69
+        },
+        {
+            "courses_title": "chem integ lab i",
+            "courses_avg": 53
+        },
+        {
+            "courses_title": "intro to politic",
+            "courses_avg": 54.01
+        },
+        {
+            "courses_title": "intro acad writ",
+            "courses_avg": 55.86
+        },
+        {
+            "courses_title": "partl diff equat",
+            "courses_avg": 56.26
+        },
+        {
+            "courses_title": "intro acad writ",
+            "courses_avg": 56.43
+        },
+        {
+            "courses_title": "intro acad writ",
+            "courses_avg": 57.33
+        },
+        {
+            "courses_title": "intro acad writ",
+            "courses_avg": 57.38
+        },
+        {
+            "courses_title": "intro acad writ",
+            "courses_avg": 57.79
+        },
+        {
+            "courses_title": "intro acad writ",
+            "courses_avg": 58.47
+        },
+        {
+            "courses_title": "intro acad writ",
+            "courses_avg": 59.23
+        },
+        {
+            "courses_title": "intro acad writ",
+            "courses_avg": 59.43
+        },
+        {
+            "courses_title": "dif calc phys ap",
+            "courses_avg": 59.59
+        },
+        {
+            "courses_title": "anthro statistcs",
+            "courses_avg": 60.05
+        },
+        {
+            "courses_title": "dif calc phys ap",
+            "courses_avg": 60.37
+        },
+        {
+            "courses_title": "2yr latin i",
+            "courses_avg": 60.67
+        },
+        {
+            "courses_title": "df calc ap ph sc",
+            "courses_avg": 60.9
+        },
+        {
+            "courses_title": "dif calc phys ap",
+            "courses_avg": 61.15
+        },
+        {
+            "courses_title": "strctr bond chem",
+            "courses_avg": 61.48
+        },
+        {
+            "courses_title": "anl mthd frst hy",
+            "courses_avg": 61.53
+        },
+        {
+            "courses_title": "intro acad writ",
+            "courses_avg": 61.81
+        },
+        {
+            "courses_title": "calc socsci comm",
+            "courses_avg": 61.83
+        },
+        {
+            "courses_title": "calc socsci comm",
+            "courses_avg": 62.34
+        },
+        {
+            "courses_title": "intro to politic",
+            "courses_avg": 62.7
+        },
+        {
+            "courses_title": "prncpls micrecon",
+            "courses_avg": 63.13
+        },
+        {
+            "courses_title": "str bnd equ chem",
+            "courses_avg": 63.44
+        },
+        {
+            "courses_title": "univrsty writing",
+            "courses_avg": 63.48
+        },
+        {
+            "courses_title": "calculus 3",
+            "courses_avg": 63.69
+        },
+        {
+            "courses_title": "df calc ap ph sc",
+            "courses_avg": 63.84
+        },
+        {
+            "courses_title": "univrsty writing",
+            "courses_avg": 63.87
+        },
+        {
+            "courses_title": "diff equations 2",
+            "courses_avg": 64.03
+        },
+        {
+            "courses_title": "dff calc ap c&ss",
+            "courses_avg": 64.03
+        },
+        {
+            "courses_title": "intro acad writ",
+            "courses_avg": 64.2
+        },
+        {
+            "courses_title": "dff calc ap c&ss",
+            "courses_avg": 64.26
+        },
+        {
+            "courses_title": "calculus 3",
+            "courses_avg": 64.5
+        },
+        {
+            "courses_title": "intro acad writ",
+            "courses_avg": 64.5
+        },
+        {
+            "courses_title": "ord diff equtns",
+            "courses_avg": 64.79
+        },
+        {
+            "courses_title": "wtrshed hydro",
+            "courses_avg": 64.79
+        },
+        {
+            "courses_title": "elem diff eq i",
+            "courses_avg": 65.04
+        },
+        {
+            "courses_title": "strctr bond chem",
+            "courses_avg": 65.08
+        },
+        {
+            "courses_title": "df calc app lf s",
+            "courses_avg": 65.16
+        },
+        {
+            "courses_title": "intr mgmt acct",
+            "courses_avg": 65.23
+        },
+        {
+            "courses_title": "org chem engneer",
+            "courses_avg": 65.28
+        },
+        {
+            "courses_title": "calculus 3",
+            "courses_avg": 65.34
+        },
+        {
+            "courses_title": "calculus 3",
+            "courses_avg": 65.72
+        },
+        {
+            "courses_title": "chem integ lab i",
+            "courses_avg": 65.75
+        },
+        {
+            "courses_title": "df calc ap ph sc",
+            "courses_avg": 65.85
+        },
+        {
+            "courses_title": "dff calc ap c&ss",
+            "courses_avg": 65.9
+        },
+        {
+            "courses_title": "univrsty writing",
+            "courses_avg": 65.97
+        },
+        {
+            "courses_title": "df calc ap ph sc",
+            "courses_avg": 66.08
+        },
+        {
+            "courses_title": "calculus 3",
+            "courses_avg": 66.22
+        },
+        {
+            "courses_title": "univrsty writing",
+            "courses_avg": 66.27
+        },
+        {
+            "courses_title": "neast&egypt arch",
+            "courses_avg": 66.33
+        },
+        {
+            "courses_title": "intr orgnc chem",
+            "courses_avg": 66.53
+        },
+        {
+            "courses_title": "univrsty writing",
+            "courses_avg": 66.86
+        },
+        {
+            "courses_title": "plnt phys",
+            "courses_avg": 67
+        },
+        {
+            "courses_title": "intr number thry",
+            "courses_avg": 67.03
+        },
+        {
+            "courses_title": "ord diff equtns",
+            "courses_avg": 67.13
+        },
+        {
+            "courses_title": "univrsty writing",
+            "courses_avg": 67.17
+        },
+        {
+            "courses_title": "strctr bond chem",
+            "courses_avg": 67.19
+        },
+        {
+            "courses_title": "prncpls micrecon",
+            "courses_avg": 67.26
+        },
+        {
+            "courses_title": "strctr bond chem",
+            "courses_avg": 67.26
+        },
+        {
+            "courses_title": "prncpls micrecon",
+            "courses_avg": 67.31
+        },
+        {
+            "courses_title": "intr mod diff ge",
+            "courses_avg": 67.38
+        },
+        {
+            "courses_title": "dff calc ap c&ss",
+            "courses_avg": 67.44
+        },
+        {
+            "courses_title": "univrsty writing",
+            "courses_avg": 67.44
+        },
+        {
+            "courses_title": "intm fnc acct ii",
+            "courses_avg": 67.44
+        },
+        {
+            "courses_title": "calculus survey",
+            "courses_avg": 67.66
+        },
+        {
+            "courses_title": "diff equations",
+            "courses_avg": 67.92
+        },
+        {
+            "courses_title": "calculus 3",
+            "courses_avg": 67.97
+        },
+        {
+            "courses_title": "fr lang&style i",
+            "courses_avg": 68
+        },
+        {
+            "courses_title": "fndtls fin acct",
+            "courses_avg": 68.01
+        },
+        {
+            "courses_title": "b-c anly&proj ev",
+            "courses_avg": 68.02
+        },
+        {
+            "courses_title": "univrsty writing",
+            "courses_avg": 68.17
+        },
+        {
+            "courses_title": "elem diff eq i",
+            "courses_avg": 68.22
+        },
+        {
+            "courses_title": "anl time series",
+            "courses_avg": 68.23
+        },
+        {
+            "courses_title": "strctr bond chem",
+            "courses_avg": 68.24
+        },
+        {
+            "courses_title": "integ chem lab i",
+            "courses_avg": 68.37
+        },
+        {
+            "courses_title": "prncpls micrecon",
+            "courses_avg": 68.53
+        },
+        {
+            "courses_title": "intro mineralogy",
+            "courses_avg": 68.55
+        },
+        {
+            "courses_title": "real variabls i",
+            "courses_avg": 68.61
+        },
+        {
+            "courses_title": "strctr bond chem",
+            "courses_avg": 68.67
+        },
+        {
+            "courses_title": "prncpls micrecon",
+            "courses_avg": 68.69
+        },
+        {
+            "courses_title": "organiztl bhvr",
+            "courses_avg": 68.75
+        },
+        {
+            "courses_title": "brit emp to 1850",
+            "courses_avg": 68.8
+        },
+        {
+            "courses_title": "bio alg,fung&bry",
+            "courses_avg": 68.87
+        },
+        {
+            "courses_title": "1yr latin i",
+            "courses_avg": 68.89
+        },
+        {
+            "courses_title": "fmly human dvlpm",
+            "courses_avg": 69.06
+        },
+        {
+            "courses_title": "prncpls micrecon",
+            "courses_avg": 69.08
+        },
+        {
+            "courses_title": "univrsty writing",
+            "courses_avg": 69.1
+        },
+        {
+            "courses_title": "dff calc ap c&ss",
+            "courses_avg": 69.12
+        },
+        {
+            "courses_title": "df calc ap ph sc",
+            "courses_avg": 69.24
+        },
+        {
+            "courses_title": "calculus 3",
+            "courses_avg": 69.31
+        },
+        {
+            "courses_title": "princpl macrecon",
+            "courses_avg": 69.31
+        },
+        {
+            "courses_title": "fndtls fin acct",
+            "courses_avg": 69.49
+        },
+        {
+            "courses_title": "plnt phyl 1:nutr",
+            "courses_avg": 69.51
+        },
+        {
+            "courses_title": "fund genetics",
+            "courses_avg": 69.54
+        },
+        {
+            "courses_title": "univrsty writing",
+            "courses_avg": 69.58
+        },
+        {
+            "courses_title": "fmly human dvlpm",
+            "courses_avg": 69.65
+        },
+        {
+            "courses_title": "prncpls micrecon",
+            "courses_avg": 69.68
+        },
+        {
+            "courses_title": "intro acad writ",
+            "courses_avg": 69.75
+        },
+        {
+            "courses_title": "federalsm canada",
+            "courses_avg": 69.88
+        },
+        {
+            "courses_title": "cdn crim&punish",
+            "courses_avg": 69.88
+        },
+        {
+            "courses_title": "intr fncl acct",
+            "courses_avg": 69.88
+        },
+        {
+            "courses_title": "in land food com",
+            "courses_avg": 69.96
+        },
+        {
+            "courses_title": "diff equations 2",
+            "courses_avg": 69.97
+        },
+        {
+            "courses_title": "prncpls micrecon",
+            "courses_avg": 69.99
+        },
+        {
+            "courses_title": "directed reading",
+            "courses_avg": 70
+        },
+        {
+            "courses_title": "elem diff eq i",
+            "courses_avg": 70
+        },
+        {
+            "courses_title": "fr prc nnspec i",
+            "courses_avg": 70
+        },
+        {
+            "courses_title": "integ chem lab i",
+            "courses_avg": 70
+        },
+        {
+            "courses_title": "dff calc ap c&ss",
+            "courses_avg": 70.07
+        },
+        {
+            "courses_title": "adv accounting",
+            "courses_avg": 70.07
+        },
+        {
+            "courses_title": "intm fnc acct ii",
+            "courses_avg": 70.07
+        },
+        {
+            "courses_title": "df calc app lf s",
+            "courses_avg": 70.1
+        },
+        {
+            "courses_title": "int quan dec mak",
+            "courses_avg": 70.15
+        },
+        {
+            "courses_title": "2nd-year ital i",
+            "courses_avg": 70.2
+        },
+        {
+            "courses_title": "coord chem",
+            "courses_avg": 70.24
+        },
+        {
+            "courses_title": "df calc app lf s",
+            "courses_avg": 70.27
+        },
+        {
+            "courses_title": "org chem lab",
+            "courses_avg": 70.29
+        },
+        {
+            "courses_title": "intro literature",
+            "courses_avg": 70.35
+        },
+        {
+            "courses_title": "int rl prmd e as",
+            "courses_avg": 70.35
+        },
+        {
+            "courses_title": "begin japn ib",
+            "courses_avg": 70.41
+        },
+        {
+            "courses_title": "strctr bond chem",
+            "courses_avg": 70.42
+        },
+        {
+            "courses_title": "df calc ap ph sc",
+            "courses_avg": 70.43
+        },
+        {
+            "courses_title": "ind auto rob",
+            "courses_avg": 70.45
+        },
+        {
+            "courses_title": "univrsty writing",
+            "courses_avg": 70.52
+        },
+        {
+            "courses_title": "int cog sys",
+            "courses_avg": 70.53
+        },
+        {
+            "courses_title": "income tax",
+            "courses_avg": 70.55
+        },
+        {
+            "courses_title": "differ calculus",
+            "courses_avg": 70.6
+        },
+        {
+            "courses_title": "begin japn ib",
+            "courses_avg": 70.62
+        },
+        {
+            "courses_title": "elec & magnetism",
+            "courses_avg": 70.66
+        },
+        {
+            "courses_title": "world englishes",
+            "courses_avg": 70.67
+        },
+        {
+            "courses_title": "appl el & elmech",
+            "courses_avg": 70.68
+        },
+        {
+            "courses_title": "intr mgmt acct",
+            "courses_avg": 70.78
+        },
+        {
+            "courses_title": "real variabls i",
+            "courses_avg": 70.81
+        },
+        {
+            "courses_title": "fndtls fin acct",
+            "courses_avg": 70.82
+        },
+        {
+            "courses_title": "intro nonfiction",
+            "courses_avg": 70.89
+        },
+        {
+            "courses_title": "fren lang&lit i",
+            "courses_avg": 70.92
+        },
+        {
+            "courses_title": "int quan dec mak",
+            "courses_avg": 70.93
+        },
+        {
+            "courses_title": "microecon policy",
+            "courses_avg": 70.94
+        },
+        {
+            "courses_title": "read, write lit",
+            "courses_avg": 70.97
+        },
+        {
+            "courses_title": "df calc ap ph sc",
+            "courses_avg": 71.06
+        },
+        {
+            "courses_title": "early cinema",
+            "courses_avg": 71.11
+        },
+        {
+            "courses_title": "lnd,fod&comm i",
+            "courses_avg": 71.13
+        },
+        {
+            "courses_title": "canada 1896-1945",
+            "courses_avg": 71.17
+        },
+        {
+            "courses_title": "prncpls micrecon",
+            "courses_avg": 71.2
+        },
+        {
+            "courses_title": "org chem lab",
+            "courses_avg": 71.2
+        },
+        {
+            "courses_title": "univrsty writing",
+            "courses_avg": 71.21
+        },
+        {
+            "courses_title": "strctr bond chem",
+            "courses_avg": 71.21
+        },
+        {
+            "courses_title": "astro frontiers",
+            "courses_avg": 71.24
+        },
+        {
+            "courses_title": "univrsty writing",
+            "courses_avg": 71.25
+        },
+        {
+            "courses_title": "intro literature",
+            "courses_avg": 71.3
+        },
+        {
+            "courses_title": "geopolitics",
+            "courses_avg": 71.32
+        },
+        {
+            "courses_title": "mass&enrgy balnc",
+            "courses_avg": 71.41
+        },
+        {
+            "courses_title": "beginner fren i",
+            "courses_avg": 71.48
+        },
+        {
+            "courses_title": "prin audit",
+            "courses_avg": 71.52
+        },
+        {
+            "courses_title": "univrsty writing",
+            "courses_avg": 71.53
+        },
+        {
+            "courses_title": "fmly human dvlpm",
+            "courses_avg": 71.54
+        },
+        {
+            "courses_title": "early 20c brit",
+            "courses_avg": 71.55
+        },
+        {
+            "courses_title": "log&ops managmnt",
+            "courses_avg": 71.64
+        },
+        {
+            "courses_title": "read, write lit",
+            "courses_avg": 71.65
+        },
+        {
+            "courses_title": "multivrbl calc",
+            "courses_avg": 71.66
+        },
+        {
+            "courses_title": "begin japn ib",
+            "courses_avg": 71.67
+        },
+        {
+            "courses_title": "intro philosophy",
+            "courses_avg": 71.73
+        },
+        {
+            "courses_title": "fndt conservat'n",
+            "courses_avg": 71.76
+        },
+        {
+            "courses_title": "income tax",
+            "courses_avg": 71.76
+        },
+        {
+            "courses_title": "fren lang&lit i",
+            "courses_avg": 71.81
+        },
+        {
+            "courses_title": "intro biometeoro",
+            "courses_avg": 71.88
+        },
+        {
+            "courses_title": "arch greece&rome",
+            "courses_avg": 71.9
+        },
+        {
+            "courses_title": "info systems",
+            "courses_avg": 71.92
+        },
+        {
+            "courses_title": "univrsty writing",
+            "courses_avg": 71.97
+        },
+        {
+            "courses_title": "cmp&anl ap p ton",
+            "courses_avg": 72
+        },
+        {
+            "courses_title": "fr prc nnspec i",
+            "courses_avg": 72
+        },
+        {
+            "courses_title": "hist of india",
+            "courses_avg": 72.11
+        },
+        {
+            "courses_title": "remote sensing",
+            "courses_avg": 72.11
+        },
+        {
+            "courses_title": "fmly human dvlpm",
+            "courses_avg": 72.13
+        },
+        {
+            "courses_title": "org chem lab",
+            "courses_avg": 72.13
+        },
+        {
+            "courses_title": "cost accounting",
+            "courses_avg": 72.15
+        },
+        {
+            "courses_title": "envir & sust",
+            "courses_avg": 72.21
+        },
+        {
+            "courses_title": "univrsty writing",
+            "courses_avg": 72.21
+        },
+        {
+            "courses_title": "human sexuality",
+            "courses_avg": 72.22
+        },
+        {
+            "courses_title": "intro literature",
+            "courses_avg": 72.23
+        },
+        {
+            "courses_title": "prncpls micrecon",
+            "courses_avg": 72.25
+        },
+        {
+            "courses_title": "world englishes",
+            "courses_avg": 72.33
+        },
+        {
+            "courses_title": "jpn sex&gend flm",
+            "courses_avg": 72.34
+        },
+        {
+            "courses_title": "univrsty writing",
+            "courses_avg": 72.36
+        },
+        {
+            "courses_title": "chem integ lab 2",
+            "courses_avg": 72.4
+        },
+        {
+            "courses_title": "busn communicati",
+            "courses_avg": 72.45
+        },
+        {
+            "courses_title": "laso mid ages",
+            "courses_avg": 72.46
+        },
+        {
+            "courses_title": "univrsty writing",
+            "courses_avg": 72.5
+        },
+        {
+            "courses_title": "intm fnc acct i",
+            "courses_avg": 72.5
+        },
+        {
+            "courses_title": "invest theory",
+            "courses_avg": 72.55
+        },
+        {
+            "courses_title": "intr lang&ling",
+            "courses_avg": 72.56
+        },
+        {
+            "courses_title": "fren lang&lit i",
+            "courses_avg": 72.56
+        },
+        {
+            "courses_title": "df calc app lf s",
+            "courses_avg": 72.66
+        },
+        {
+            "courses_title": "univrsty writing",
+            "courses_avg": 72.71
+        },
+        {
+            "courses_title": "vis env mod&post",
+            "courses_avg": 72.76
+        },
+        {
+            "courses_title": "intr phys eng i",
+            "courses_avg": 72.8
+        },
+        {
+            "courses_title": "univrsty writing",
+            "courses_avg": 72.82
+        },
+        {
+            "courses_title": "brit lit 18c-21c",
+            "courses_avg": 72.83
+        },
+        {
+            "courses_title": "comp env physiol",
+            "courses_avg": 72.87
+        },
+        {
+            "courses_title": "parent-child rel",
+            "courses_avg": 72.92
+        },
+        {
+            "courses_title": "intro literature",
+            "courses_avg": 72.93
+        },
+        {
+            "courses_title": "cost accting",
+            "courses_avg": 72.93
+        },
+        {
+            "courses_title": "univrsty writing",
+            "courses_avg": 72.94
+        },
+        {
+            "courses_title": "renssance europe",
+            "courses_avg": 72.95
+        },
+        {
+            "courses_title": "intro literature",
+            "courses_avg": 72.95
+        },
+        {
+            "courses_title": "intr fncl acct",
+            "courses_avg": 72.95
+        },
+        {
+            "courses_title": "adul educ",
+            "courses_avg": 72.96
+        },
+        {
+            "courses_title": "nrmscl intg hm m",
+            "courses_avg": 72.97
+        },
+        {
+            "courses_title": "schol writ&argue",
+            "courses_avg": 73
+        },
+        {
+            "courses_title": "prncpls micrecon",
+            "courses_avg": 73
+        },
+        {
+            "courses_title": "adv accounting",
+            "courses_avg": 73
+        },
+        {
+            "courses_title": "1yr latin i",
+            "courses_avg": 73.03
+        },
+        {
+            "courses_title": "hollywood cinema",
+            "courses_avg": 73.03
+        },
+        {
+            "courses_title": "intm fnc acct i",
+            "courses_avg": 73.08
+        },
+        {
+            "courses_title": "int biometeorlgy",
+            "courses_avg": 73.11
+        },
+        {
+            "courses_title": "money & banking",
+            "courses_avg": 73.11
+        },
+        {
+            "courses_title": "adv org chem",
+            "courses_avg": 73.11
+        },
+        {
+            "courses_title": "adv opertng sysm",
+            "courses_avg": 73.13
+        },
+        {
+            "courses_title": "19c genre",
+            "courses_avg": 73.14
+        },
+        {
+            "courses_title": "stdy phonology",
+            "courses_avg": 73.15
+        },
+        {
+            "courses_title": "eng analysis i",
+            "courses_avg": 73.18
+        },
+        {
+            "courses_title": "univrsty writing",
+            "courses_avg": 73.22
+        },
+        {
+            "courses_title": "intr phys eng i",
+            "courses_avg": 73.23
+        },
+        {
+            "courses_title": "inventing canada",
+            "courses_avg": 73.23
+        },
+        {
+            "courses_title": "chem integ lab i",
+            "courses_avg": 73.23
+        },
+        {
+            "courses_title": "univrsty writing",
+            "courses_avg": 73.25
+        },
+        {
+            "courses_title": "univrsty writing",
+            "courses_avg": 73.28
+        },
+        {
+            "courses_title": "chem integ lab i",
+            "courses_avg": 73.3
+        },
+        {
+            "courses_title": "int quan dec mak",
+            "courses_avg": 73.33
+        },
+        {
+            "courses_title": "invest theory",
+            "courses_avg": 73.34
+        },
+        {
+            "courses_title": "intro acad writ",
+            "courses_avg": 73.36
+        },
+        {
+            "courses_title": "in land food com",
+            "courses_avg": 73.36
+        },
+        {
+            "courses_title": "lit in canada",
+            "courses_avg": 73.37
+        },
+        {
+            "courses_title": "read:korn tpcs 1",
+            "courses_avg": 73.38
+        },
+        {
+            "courses_title": "micro wthr&clim",
+            "courses_avg": 73.41
+        },
+        {
+            "courses_title": "multivrbl calc",
+            "courses_avg": 73.42
+        },
+        {
+            "courses_title": "intro acad writ",
+            "courses_avg": 73.42
+        },
+        {
+            "courses_title": "univrsty writing",
+            "courses_avg": 73.42
+        },
+        {
+            "courses_title": "beginner fren i",
+            "courses_avg": 73.44
+        },
+        {
+            "courses_title": "df calc app lf s",
+            "courses_avg": 73.46
+        },
+        {
+            "courses_title": "univrsty writing",
+            "courses_avg": 73.46
+        },
+        {
+            "courses_title": "univrsty writing",
+            "courses_avg": 73.48
+        },
+        {
+            "courses_title": "org chem lab",
+            "courses_avg": 73.52
+        },
+        {
+            "courses_title": "strctr bond chem",
+            "courses_avg": 73.53
+        },
+        {
+            "courses_title": "evolutionary eco",
+            "courses_avg": 73.53
+        },
+        {
+            "courses_title": "fr lang&style i",
+            "courses_avg": 73.55
+        },
+        {
+            "courses_title": "foip&priv rcrds",
+            "courses_avg": 73.56
+        },
+        {
+            "courses_title": "earth&planet sci",
+            "courses_avg": 73.58
+        },
+        {
+            "courses_title": "organiztl bhvr",
+            "courses_avg": 73.58
+        },
+        {
+            "courses_title": "polymer chem",
+            "courses_avg": 73.59
+        },
+        {
+            "courses_title": "2nd-year ital i",
+            "courses_avg": 73.6
+        },
+        {
+            "courses_title": "globl  envr hist",
+            "courses_avg": 73.63
+        },
+        {
+            "courses_title": "income tax",
+            "courses_avg": 73.63
+        },
+        {
+            "courses_title": "geog inform sci",
+            "courses_avg": 73.7
+        },
+        {
+            "courses_title": "intr biogeogrphy",
+            "courses_avg": 73.73
+        },
+        {
+            "courses_title": "clas poet tang",
+            "courses_avg": 73.75
+        },
+        {
+            "courses_title": "nrmscl intg hm m",
+            "courses_avg": 73.76
+        },
+        {
+            "courses_title": "univrsty writing",
+            "courses_avg": 73.8
+        },
+        {
+            "courses_title": "intr hst flm prd",
+            "courses_avg": 73.85
+        },
+        {
+            "courses_title": "int quan dec mak",
+            "courses_avg": 73.89
+        },
+        {
+            "courses_title": "fren lang&lit i",
+            "courses_avg": 73.96
+        },
+        {
+            "courses_title": "prin audit",
+            "courses_avg": 74.03
+        },
+        {
+            "courses_title": "intro global pol",
+            "courses_avg": 74.04
+        },
+        {
+            "courses_title": "cost accting",
+            "courses_avg": 74.08
+        },
+        {
+            "courses_title": "univrsty writing",
+            "courses_avg": 74.12
+        },
+        {
+            "courses_title": "univrsty writing",
+            "courses_avg": 74.16
+        },
+        {
+            "courses_title": "intro medcl anth",
+            "courses_avg": 74.16
+        },
+        {
+            "courses_title": "chin poli th&ins",
+            "courses_avg": 74.18
+        },
+        {
+            "courses_title": "intr empir mthds",
+            "courses_avg": 74.2
+        },
+        {
+            "courses_title": "stdy genre/perio",
+            "courses_avg": 74.21
+        },
+        {
+            "courses_title": "internatl trade",
+            "courses_avg": 74.22
+        },
+        {
+            "courses_title": "beginner fren i",
+            "courses_avg": 74.24
+        },
+        {
+            "courses_title": "empirical econ",
+            "courses_avg": 74.31
+        },
+        {
+            "courses_title": "beginner fren i",
+            "courses_avg": 74.32
+        },
+        {
+            "courses_title": "univrsty writing",
+            "courses_avg": 74.32
+        },
+        {
+            "courses_title": "prncpls micrecon",
+            "courses_avg": 74.33
+        },
+        {
+            "courses_title": "univrsty writing",
+            "courses_avg": 74.34
+        },
+        {
+            "courses_title": "french grammar",
+            "courses_avg": 74.35
+        },
+        {
+            "courses_title": "greek roman game",
+            "courses_avg": 74.36
+        },
+        {
+            "courses_title": "indigenous lits",
+            "courses_avg": 74.37
+        },
+        {
+            "courses_title": "major seminr lit",
+            "courses_avg": 74.38
+        },
+        {
+            "courses_title": "bioorgan chem",
+            "courses_avg": 74.38
+        },
+        {
+            "courses_title": "intr phys eng i",
+            "courses_avg": 74.41
+        },
+        {
+            "courses_title": "",
+            "courses_avg": 74.45
+        },
+        {
+            "courses_title": "active health",
+            "courses_avg": 74.46
+        },
+        {
+            "courses_title": "glbl, city, regn",
+            "courses_avg": 74.46
+        },
+        {
+            "courses_title": "1st yr italian i",
+            "courses_avg": 74.48
+        },
+        {
+            "courses_title": "lang acquisition",
+            "courses_avg": 74.49
+        },
+        {
+            "courses_title": "igneous petrolgy",
+            "courses_avg": 74.49
+        },
+        {
+            "courses_title": "univrsty writing",
+            "courses_avg": 74.5
+        },
+        {
+            "courses_title": "log&ops managmnt",
+            "courses_avg": 74.55
+        },
+        {
+            "courses_title": "for wildlif ecol",
+            "courses_avg": 74.58
+        },
+        {
+            "courses_title": "stratgc staffing",
+            "courses_avg": 74.59
+        },
+        {
+            "courses_title": "mltvar&vctr calc",
+            "courses_avg": 74.65
+        },
+        {
+            "courses_title": "cost accting",
+            "courses_avg": 74.65
+        },
+        {
+            "courses_title": "intr poli geog",
+            "courses_avg": 74.66
+        },
+        {
+            "courses_title": "intro marketing",
+            "courses_avg": 74.67
+        },
+        {
+            "courses_title": "strctr bond chem",
+            "courses_avg": 74.67
+        },
+        {
+            "courses_title": "fund genetics",
+            "courses_avg": 74.72
+        },
+        {
+            "courses_title": "active health",
+            "courses_avg": 74.73
+        },
+        {
+            "courses_title": "fren lang&lit i",
+            "courses_avg": 74.74
+        },
+        {
+            "courses_title": "nutr conc & cont",
+            "courses_avg": 74.78
+        },
+        {
+            "courses_title": "univrsty writing",
+            "courses_avg": 74.85
+        },
+        {
+            "courses_title": "df calc app lf s",
+            "courses_avg": 74.86
+        },
+        {
+            "courses_title": "forstry machines",
+            "courses_avg": 74.86
+        },
+        {
+            "courses_title": "intm fnc acct i",
+            "courses_avg": 74.87
+        },
+        {
+            "courses_title": "inter germ iii",
+            "courses_avg": 74.89
+        },
+        {
+            "courses_title": "intro acad writ",
+            "courses_avg": 74.92
+        },
+        {
+            "courses_title": "intr biometrics",
+            "courses_avg": 74.94
+        },
+        {
+            "courses_title": "int astronomy i",
+            "courses_avg": 74.96
+        },
+        {
+            "courses_title": "multivrbl calc",
+            "courses_avg": 74.97
+        },
+        {
+            "courses_title": "int global citiz",
+            "courses_avg": 75
+        },
+        {
+            "courses_title": "busn communicati",
+            "courses_avg": 75
+        },
+        {
+            "courses_title": "business writing",
+            "courses_avg": 75
+        },
+        {
+            "courses_title": "organiztl bhvr",
+            "courses_avg": 75
+        },
+        {
+            "courses_title": "intro acad writ",
+            "courses_avg": 75.08
+        },
+        {
+            "courses_title": "matter&enrgy i",
+            "courses_avg": 75.08
+        },
+        {
+            "courses_title": "cur poli thought",
+            "courses_avg": 75.11
+        },
+        {
+            "courses_title": "2yr latin i",
+            "courses_avg": 75.11
+        },
+        {
+            "courses_title": "univrsty writing",
+            "courses_avg": 75.13
+        },
+        {
+            "courses_title": "chem integ lab i",
+            "courses_avg": 75.14
+        },
+        {
+            "courses_title": "prnc muscl form",
+            "courses_avg": 75.15
+        },
+        {
+            "courses_title": "org chem lab",
+            "courses_avg": 75.19
+        },
+        {
+            "courses_title": "chem integ lab i",
+            "courses_avg": 75.2
+        },
+        {
+            "courses_title": "aqueous envirmnt",
+            "courses_avg": 75.21
+        },
+        {
+            "courses_title": "univrsty writing",
+            "courses_avg": 75.22
+        },
+        {
+            "courses_title": "gndr&indg can",
+            "courses_avg": 75.25
+        },
+        {
+            "courses_title": "wmn bronz",
+            "courses_avg": 75.31
+        },
+        {
+            "courses_title": "grdwater hydrlgy",
+            "courses_avg": 75.32
+        },
+        {
+            "courses_title": "rock mech",
+            "courses_avg": 75.33
+        },
+        {
+            "courses_title": "sm bus man agri",
+            "courses_avg": 75.33
+        },
+        {
+            "courses_title": "seminar cog sys",
+            "courses_avg": 75.33
+        },
+        {
+            "courses_title": "intr quantm mech",
+            "courses_avg": 75.33
+        },
+        {
+            "courses_title": "beginner fren i",
+            "courses_avg": 75.35
+        },
+        {
+            "courses_title": "intro chem anlys",
+            "courses_avg": 75.35
+        },
+        {
+            "courses_title": "business finc",
+            "courses_avg": 75.35
+        },
+        {
+            "courses_title": "business finance",
+            "courses_avg": 75.36
+        },
+        {
+            "courses_title": "poverty&ineqalty",
+            "courses_avg": 75.37
+        },
+        {
+            "courses_title": "chem integ lab i",
+            "courses_avg": 75.37
+        },
+        {
+            "courses_title": "2yr anc greek i",
+            "courses_avg": 75.4
+        },
+        {
+            "courses_title": "catastroph earth",
+            "courses_avg": 75.4
+        },
+        {
+            "courses_title": "chem integ lab 2",
+            "courses_avg": 75.4
+        },
+        {
+            "courses_title": "us 1945 - presnt",
+            "courses_avg": 75.45
+        },
+        {
+            "courses_title": "market research",
+            "courses_avg": 75.48
+        },
+        {
+            "courses_title": "beginner fren i",
+            "courses_avg": 75.5
+        },
+        {
+            "courses_title": "business writing",
+            "courses_avg": 75.52
+        },
+        {
+            "courses_title": "busn communicati",
+            "courses_avg": 75.58
+        },
+        {
+            "courses_title": "econ anlys proj",
+            "courses_avg": 75.61
+        },
+        {
+            "courses_title": "prin audit",
+            "courses_avg": 75.63
+        },
+        {
+            "courses_title": "eur ear mid-ages",
+            "courses_avg": 75.65
+        },
+        {
+            "courses_title": "read, write lit",
+            "courses_avg": 75.66
+        },
+        {
+            "courses_title": "forest ecology",
+            "courses_avg": 75.68
+        },
+        {
+            "courses_title": "teach adult",
+            "courses_avg": 75.71
+        },
+        {
+            "courses_title": "busn communicati",
+            "courses_avg": 75.73
+        },
+        {
+            "courses_title": "intr minrl depst",
+            "courses_avg": 75.75
+        },
+        {
+            "courses_title": "active health",
+            "courses_avg": 75.77
+        },
+        {
+            "courses_title": "acc mgt ctrl&inc",
+            "courses_avg": 75.78
+        },
+        {
+            "courses_title": "integ chem lab i",
+            "courses_avg": 75.79
+        },
+        {
+            "courses_title": "proteins",
+            "courses_avg": 75.79
+        },
+        {
+            "courses_title": "urban geog",
+            "courses_avg": 75.8
+        },
+        {
+            "courses_title": "italian fascism",
+            "courses_avg": 75.84
+        },
+        {
+            "courses_title": "mkt applications",
+            "courses_avg": 75.84
+        },
+        {
+            "courses_title": "multivrbl calc",
+            "courses_avg": 75.85
+        },
+        {
+            "courses_title": "intermed fren 1",
+            "courses_avg": 75.85
+        },
+        {
+            "courses_title": "fren lang&lit i",
+            "courses_avg": 75.87
+        },
+        {
+            "courses_title": "adlts & families",
+            "courses_avg": 75.9
+        },
+        {
+            "courses_title": "clas poet tang",
+            "courses_avg": 75.92
+        },
+        {
+            "courses_title": "univrsty writing",
+            "courses_avg": 75.97
+        },
+        {
+            "courses_title": "partl diff equat",
+            "courses_avg": 75.99
+        },
+        {
+            "courses_title": "intro philosophy",
+            "courses_avg": 76.01
+        },
+        {
+            "courses_title": "intr writ poetry",
+            "courses_avg": 76.02
+        },
+        {
+            "courses_title": "int md ch lit h",
+            "courses_avg": 76.05
+        },
+        {
+            "courses_title": "org chem lab",
+            "courses_avg": 76.06
+        },
+        {
+            "courses_title": "intr org consult",
+            "courses_avg": 76.11
+        },
+        {
+            "courses_title": "busn communicati",
+            "courses_avg": 76.14
+        },
+        {
+            "courses_title": "intr ital cult i",
+            "courses_avg": 76.15
+        },
+        {
+            "courses_title": "business writing",
+            "courses_avg": 76.15
+        },
+        {
+            "courses_title": "ancient greece",
+            "courses_avg": 76.17
+        },
+        {
+            "courses_title": "beginner fren i",
+            "courses_avg": 76.18
+        },
+        {
+            "courses_title": "biology of cell",
+            "courses_avg": 76.2
+        },
+        {
+            "courses_title": "entrepreneurship",
+            "courses_avg": 76.22
+        },
+        {
+            "courses_title": "nrmscl intg hm m",
+            "courses_avg": 76.23
+        },
+        {
+            "courses_title": "fr lit in trn ii",
+            "courses_avg": 76.23
+        },
+        {
+            "courses_title": "busn communicati",
+            "courses_avg": 76.23
+        },
+        {
+            "courses_title": "dynamics & waves",
+            "courses_avg": 76.28
+        },
+        {
+            "courses_title": "entrepreneurship",
+            "courses_avg": 76.29
+        },
+        {
+            "courses_title": "univrsty writing",
+            "courses_avg": 76.34
+        },
+        {
+            "courses_title": "fren lang&lit i",
+            "courses_avg": 76.38
+        },
+        {
+            "courses_title": "intr crtv nonfic",
+            "courses_avg": 76.39
+        },
+        {
+            "courses_title": "chem integ lab i",
+            "courses_avg": 76.4
+        },
+        {
+            "courses_title": "business writing",
+            "courses_avg": 76.43
+        },
+        {
+            "courses_title": "european integrt",
+            "courses_avg": 76.44
+        },
+        {
+            "courses_title": "intr lang&ling",
+            "courses_avg": 76.5
+        },
+        {
+            "courses_title": "busn communicati",
+            "courses_avg": 76.5
+        },
+        {
+            "courses_title": "func & logic prg",
+            "courses_avg": 76.52
+        },
+        {
+            "courses_title": "grm lit 1900-45",
+            "courses_avg": 76.55
+        },
+        {
+            "courses_title": "log&ops managmnt",
+            "courses_avg": 76.56
+        },
+        {
+            "courses_title": "business writing",
+            "courses_avg": 76.6
+        },
+        {
+            "courses_title": "nrmscl intg hm m",
+            "courses_avg": 76.63
+        },
+        {
+            "courses_title": "univrsty writing",
+            "courses_avg": 76.63
+        },
+        {
+            "courses_title": "govt & business",
+            "courses_avg": 76.63
+        },
+        {
+            "courses_title": "lit in u.s.a.",
+            "courses_avg": 76.67
+        },
+        {
+            "courses_title": "finan acct adv",
+            "courses_avg": 76.68
+        },
+        {
+            "courses_title": "business writing",
+            "courses_avg": 76.7
+        },
+        {
+            "courses_title": "glbl climat chng",
+            "courses_avg": 76.75
+        },
+        {
+            "courses_title": "strategic mangmt",
+            "courses_avg": 76.77
+        },
+        {
+            "courses_title": "mod chin lit 1",
+            "courses_avg": 76.81
+        },
+        {
+            "courses_title": "1yr latin i",
+            "courses_avg": 76.82
+        },
+        {
+            "courses_title": "mng'g change",
+            "courses_avg": 76.82
+        },
+        {
+            "courses_title": "hist of photogry",
+            "courses_avg": 76.85
+        },
+        {
+            "courses_title": "beginner fren i",
+            "courses_avg": 76.87
+        },
+        {
+            "courses_title": "",
+            "courses_avg": 76.89
+        },
+        {
+            "courses_title": "int'l bus mngt",
+            "courses_avg": 76.9
+        },
+        {
+            "courses_title": "fr lang&style i",
+            "courses_avg": 76.94
+        },
+        {
+            "courses_title": "japn religions",
+            "courses_avg": 76.96
+        },
+        {
+            "courses_title": "premodern japan",
+            "courses_avg": 76.98
+        },
+        {
+            "courses_title": "univrsty writing",
+            "courses_avg": 77
+        },
+        {
+            "courses_title": "chem integ lab 2",
+            "courses_avg": 77
+        },
+        {
+            "courses_title": "financial rept'g",
+            "courses_avg": 77
+        },
+        {
+            "courses_title": "intr fren ling",
+            "courses_avg": 77.04
+        },
+        {
+            "courses_title": "energy & climate",
+            "courses_avg": 77.05
+        },
+        {
+            "courses_title": "clas poet tang",
+            "courses_avg": 77.05
+        },
+        {
+            "courses_title": "org chem lab",
+            "courses_avg": 77.06
+        },
+        {
+            "courses_title": "invest theory",
+            "courses_avg": 77.07
+        },
+        {
+            "courses_title": "sust frst policy",
+            "courses_avg": 77.09
+        },
+        {
+            "courses_title": "busn communicati",
+            "courses_avg": 77.2
+        },
+        {
+            "courses_title": "beginner fren i",
+            "courses_avg": 77.25
+        },
+        {
+            "courses_title": "business writing",
+            "courses_avg": 77.25
+        },
+        {
+            "courses_title": "struc&repr fungi",
+            "courses_avg": 77.3
+        },
+        {
+            "courses_title": "market research",
+            "courses_avg": 77.31
+        },
+        {
+            "courses_title": "intg chem lab 2",
+            "courses_avg": 77.33
+        },
+        {
+            "courses_title": "adv biometrics",
+            "courses_avg": 77.36
+        },
+        {
+            "courses_title": "clascl ch 1 (nh)",
+            "courses_avg": 77.43
+        },
+        {
+            "courses_title": "coat&surf modfcn",
+            "courses_avg": 77.44
+        },
+        {
+            "courses_title": "business writing",
+            "courses_avg": 77.45
+        },
+        {
+            "courses_title": "business writing",
+            "courses_avg": 77.48
+        },
+        {
+            "courses_title": "comp neurobiolgy",
+            "courses_avg": 77.48
+        },
+        {
+            "courses_title": "risk mgt&fnc eng",
+            "courses_avg": 77.49
+        },
+        {
+            "courses_title": "adv bioorg chem",
+            "courses_avg": 77.5
+        },
+        {
+            "courses_title": "business writing",
+            "courses_avg": 77.52
+        },
+        {
+            "courses_title": "civl eng matl",
+            "courses_avg": 77.55
+        },
+        {
+            "courses_title": "lang communites",
+            "courses_avg": 77.56
+        },
+        {
+            "courses_title": "marketing",
+            "courses_avg": 77.57
+        },
+        {
+            "courses_title": "fund of biostats",
+            "courses_avg": 77.61
+        },
+        {
+            "courses_title": "invest theory",
+            "courses_avg": 77.62
+        },
+        {
+            "courses_title": "food analysis",
+            "courses_avg": 77.63
+        },
+        {
+            "courses_title": "animal phys i",
+            "courses_avg": 77.63
+        },
+        {
+            "courses_title": "business writing",
+            "courses_avg": 77.65
+        },
+        {
+            "courses_title": "mod chin lit 1",
+            "courses_avg": 77.66
+        },
+        {
+            "courses_title": "strategic mangmt",
+            "courses_avg": 77.67
+        },
+        {
+            "courses_title": "business writing",
+            "courses_avg": 77.67
+        },
+        {
+            "courses_title": "financial rept'g",
+            "courses_avg": 77.67
+        },
+        {
+            "courses_title": "quatrny&app geo",
+            "courses_avg": 77.73
+        },
+        {
+            "courses_title": "read, write lit",
+            "courses_avg": 77.74
+        },
+        {
+            "courses_title": "communcting chem",
+            "courses_avg": 77.74
+        },
+        {
+            "courses_title": "intr writ fictin",
+            "courses_avg": 77.75
+        },
+        {
+            "courses_title": "org behav",
+            "courses_avg": 77.76
+        },
+        {
+            "courses_title": "econ anlys proj",
+            "courses_avg": 77.81
+        },
+        {
+            "courses_title": "log&ops managmnt",
+            "courses_avg": 77.84
+        },
+        {
+            "courses_title": "mod chin lit 1",
+            "courses_avg": 77.84
+        },
+        {
+            "courses_title": "fndtns coaching",
+            "courses_avg": 77.85
+        },
+        {
+            "courses_title": "intr cr writing",
+            "courses_avg": 77.85
+        },
+        {
+            "courses_title": "2 party negotns",
+            "courses_avg": 77.85
+        },
+        {
+            "courses_title": "us forn reltions",
+            "courses_avg": 77.87
+        },
+        {
+            "courses_title": "cinema: neoreal",
+            "courses_avg": 77.89
+        },
+        {
+            "courses_title": "1st yr italian i",
+            "courses_avg": 77.91
+        },
+        {
+            "courses_title": "intmd bib hebr 1",
+            "courses_avg": 78
+        },
+        {
+            "courses_title": "fren lang&lit i",
+            "courses_avg": 78
+        },
+        {
+            "courses_title": "wireless com sys",
+            "courses_avg": 78
+        },
+        {
+            "courses_title": "entrepreneurship",
+            "courses_avg": 78
+        },
+        {
+            "courses_title": "log&ops managmnt",
+            "courses_avg": 78.03
+        },
+        {
+            "courses_title": "intgrt'd bio lab",
+            "courses_avg": 78.05
+        },
+        {
+            "courses_title": "beginner fren i",
+            "courses_avg": 78.11
+        },
+        {
+            "courses_title": "engl structure 2",
+            "courses_avg": 78.11
+        },
+        {
+            "courses_title": "1st yr italian i",
+            "courses_avg": 78.12
+        },
+        {
+            "courses_title": "business finance",
+            "courses_avg": 78.12
+        },
+        {
+            "courses_title": "busn communicati",
+            "courses_avg": 78.14
+        },
+        {
+            "courses_title": "intrm macro anly",
+            "courses_avg": 78.15
+        },
+        {
+            "courses_title": "adul educ",
+            "courses_avg": 78.2
+        },
+        {
+            "courses_title": "int'l bus mngt",
+            "courses_avg": 78.23
+        },
+        {
+            "courses_title": "strg mngmnt bus",
+            "courses_avg": 78.29
+        },
+        {
+            "courses_title": "int econ resrch",
+            "courses_avg": 78.3
+        },
+        {
+            "courses_title": "organztnl change",
+            "courses_avg": 78.35
+        },
+        {
+            "courses_title": "intro acad writ",
+            "courses_avg": 78.38
+        },
+        {
+            "courses_title": "univrsty writing",
+            "courses_avg": 78.41
+        },
+        {
+            "courses_title": "univrsty writing",
+            "courses_avg": 78.42
+        },
+        {
+            "courses_title": "econ entre&innov",
+            "courses_avg": 78.47
+        },
+        {
+            "courses_title": "intr writ comdic",
+            "courses_avg": 78.48
+        },
+        {
+            "courses_title": "int'l bus mngt",
+            "courses_avg": 78.48
+        },
+        {
+            "courses_title": "govt & business",
+            "courses_avg": 78.48
+        },
+        {
+            "courses_title": "govt & business",
+            "courses_avg": 78.48
+        },
+        {
+            "courses_title": "b-c anly&proj ev",
+            "courses_avg": 78.53
+        },
+        {
+            "courses_title": "gender & nation",
+            "courses_avg": 78.53
+        },
+        {
+            "courses_title": "intr wrt screen",
+            "courses_avg": 78.56
+        },
+        {
+            "courses_title": "practice praxis",
+            "courses_avg": 78.57
+        },
+        {
+            "courses_title": "trans globe soc",
+            "courses_avg": 78.6
+        },
+        {
+            "courses_title": "univrsty writing",
+            "courses_avg": 78.6
+        },
+        {
+            "courses_title": "busn communicati",
+            "courses_avg": 78.6
+        },
+        {
+            "courses_title": "1st yr italian i",
+            "courses_avg": 78.61
+        },
+        {
+            "courses_title": "new enter devel",
+            "courses_avg": 78.61
+        },
+        {
+            "courses_title": "drugs & society",
+            "courses_avg": 78.62
+        },
+        {
+            "courses_title": "app stat mgmt",
+            "courses_avg": 78.62
+        },
+        {
+            "courses_title": "num mthds dff eq",
+            "courses_avg": 78.66
+        },
+        {
+            "courses_title": "spt, peace, cnfl",
+            "courses_avg": 78.66
+        },
+        {
+            "courses_title": "1st yr italian i",
+            "courses_avg": 78.66
+        },
+        {
+            "courses_title": "mod chin lit 1",
+            "courses_avg": 78.66
+        },
+        {
+            "courses_title": "strategic mangmt",
+            "courses_avg": 78.67
+        },
+        {
+            "courses_title": "business writing",
+            "courses_avg": 78.68
+        },
+        {
+            "courses_title": "business writing",
+            "courses_avg": 78.71
+        },
+        {
+            "courses_title": "intro finance",
+            "courses_avg": 78.71
+        },
+        {
+            "courses_title": "land food comm 2",
+            "courses_avg": 78.75
+        },
+        {
+            "courses_title": "soc proc incl/ex",
+            "courses_avg": 78.79
+        },
+        {
+            "courses_title": "major seminr lit",
+            "courses_avg": 78.81
+        },
+        {
+            "courses_title": "1st yr italian i",
+            "courses_avg": 78.82
+        },
+        {
+            "courses_title": "site analys 2",
+            "courses_avg": 78.83
+        },
+        {
+            "courses_title": "lang communites",
+            "courses_avg": 78.84
+        },
+        {
+            "courses_title": "marketing",
+            "courses_avg": 78.84
+        },
+        {
+            "courses_title": "intr cr writing",
+            "courses_avg": 78.92
+        },
+        {
+            "courses_title": "appld econometrc",
+            "courses_avg": 78.93
+        },
+        {
+            "courses_title": "oper & log",
+            "courses_avg": 78.94
+        },
+        {
+            "courses_title": "pipeline eng",
+            "courses_avg": 78.97
+        },
+        {
+            "courses_title": "topcs microecon",
+            "courses_avg": 79
+        },
+        {
+            "courses_title": "adults & famlies",
+            "courses_avg": 79.01
+        },
+        {
+            "courses_title": "thinking gender",
+            "courses_avg": 79.05
+        },
+        {
+            "courses_title": "enrich physics 1",
+            "courses_avg": 79.06
+        },
+        {
+            "courses_title": "intr cr writing",
+            "courses_avg": 79.14
+        },
+        {
+            "courses_title": "optml dcsnmkg i",
+            "courses_avg": 79.15
+        },
+        {
+            "courses_title": "discrete math",
+            "courses_avg": 79.17
+        },
+        {
+            "courses_title": "plnt-micr inter",
+            "courses_avg": 79.18
+        },
+        {
+            "courses_title": "acc mgt ctrl&inc",
+            "courses_avg": 79.2
+        },
+        {
+            "courses_title": "real analysis i",
+            "courses_avg": 79.22
+        },
+        {
+            "courses_title": "var & aprx mtds",
+            "courses_avg": 79.22
+        },
+        {
+            "courses_title": "process econ dev",
+            "courses_avg": 79.26
+        },
+        {
+            "courses_title": "integ mrktg comm",
+            "courses_avg": 79.26
+        },
+        {
+            "courses_title": "innov&entrepren",
+            "courses_avg": 79.26
+        },
+        {
+            "courses_title": "human hrdty evol",
+            "courses_avg": 79.27
+        },
+        {
+            "courses_title": "mkt applications",
+            "courses_avg": 79.28
+        },
+        {
+            "courses_title": "business writing",
+            "courses_avg": 79.3
+        },
+        {
+            "courses_title": "optml dcsnmkg ii",
+            "courses_avg": 79.31
+        },
+        {
+            "courses_title": "water mgmt",
+            "courses_avg": 79.33
+        },
+        {
+            "courses_title": "inst adul educ",
+            "courses_avg": 79.33
+        },
+        {
+            "courses_title": "consult&decision",
+            "courses_avg": 79.35
+        },
+        {
+            "courses_title": "mar&intn'l trans",
+            "courses_avg": 79.37
+        },
+        {
+            "courses_title": "invest theory",
+            "courses_avg": 79.39
+        },
+        {
+            "courses_title": "images in texts",
+            "courses_avg": 79.4
+        },
+        {
+            "courses_title": "applied econ",
+            "courses_avg": 79.4
+        },
+        {
+            "courses_title": "cost accting",
+            "courses_avg": 79.4
+        },
+        {
+            "courses_title": "poetry",
+            "courses_avg": 79.43
+        },
+        {
+            "courses_title": "thinking gender",
+            "courses_avg": 79.46
+        },
+        {
+            "courses_title": "high perf cond",
+            "courses_avg": 79.48
+        },
+        {
+            "courses_title": "18c genre",
+            "courses_avg": 79.48
+        },
+        {
+            "courses_title": "comp phys",
+            "courses_avg": 79.52
+        },
+        {
+            "courses_title": "communcting chem",
+            "courses_avg": 79.55
+        },
+        {
+            "courses_title": "fndmntl accnting",
+            "courses_avg": 79.62
+        },
+        {
+            "courses_title": "invest theory",
+            "courses_avg": 79.63
+        },
+        {
+            "courses_title": "int global citiz",
+            "courses_avg": 79.63
+        },
+        {
+            "courses_title": "inter germ i",
+            "courses_avg": 79.67
+        },
+        {
+            "courses_title": "graduating essay",
+            "courses_avg": 79.7
+        },
+        {
+            "courses_title": "weap & arms cntl",
+            "courses_avg": 79.7
+        },
+        {
+            "courses_title": "number theory",
+            "courses_avg": 79.71
+        },
+        {
+            "courses_title": "intr biometrics",
+            "courses_avg": 79.71
+        },
+        {
+            "courses_title": "soil process",
+            "courses_avg": 79.71
+        },
+        {
+            "courses_title": "intro film stdy",
+            "courses_avg": 79.74
+        },
+        {
+            "courses_title": "germ translation",
+            "courses_avg": 79.87
+        },
+        {
+            "courses_title": "teach adult",
+            "courses_avg": 79.88
+        },
+        {
+            "courses_title": "mrkt research",
+            "courses_avg": 79.93
+        },
+        {
+            "courses_title": "mic&nano fab tec",
+            "courses_avg": 80
+        },
+        {
+            "courses_title": "prod serv manage",
+            "courses_avg": 80
+        },
+        {
+            "courses_title": "arch design iii",
+            "courses_avg": 80
+        },
+        {
+            "courses_title": "lab expl earth",
+            "courses_avg": 80.08
+        },
+        {
+            "courses_title": "applied econ",
+            "courses_avg": 80.11
+        },
+        {
+            "courses_title": "public managemnt",
+            "courses_avg": 80.16
+        },
+        {
+            "courses_title": "weld & join mtrl",
+            "courses_avg": 80.17
+        },
+        {
+            "courses_title": "bioinorganc chem",
+            "courses_avg": 80.17
+        },
+        {
+            "courses_title": "risk mgt&fnc eng",
+            "courses_avg": 80.24
+        },
+        {
+            "courses_title": "arch design iii",
+            "courses_avg": 80.25
+        },
+        {
+            "courses_title": "applied econ",
+            "courses_avg": 80.28
+        },
+        {
+            "courses_title": "biology of cell",
+            "courses_avg": 80.34
+        },
+        {
+            "courses_title": "probability",
+            "courses_avg": 80.39
+        },
+        {
+            "courses_title": "prod serv manage",
+            "courses_avg": 80.39
+        },
+        {
+            "courses_title": "bio dyn mar-ter",
+            "courses_avg": 80.42
+        },
+        {
+            "courses_title": "marketing",
+            "courses_avg": 80.43
+        },
+        {
+            "courses_title": "env,geotech i",
+            "courses_avg": 80.44
+        },
+        {
+            "courses_title": "prodcing film&tv",
+            "courses_avg": 80.53
+        },
+        {
+            "courses_title": "fndtn nurs pract",
+            "courses_avg": 80.61
+        },
+        {
+            "courses_title": "commnty & popltn",
+            "courses_avg": 80.63
+        },
+        {
+            "courses_title": "stats methlgy i",
+            "courses_avg": 80.64
+        },
+        {
+            "courses_title": "fnd mgr econ",
+            "courses_avg": 80.64
+        },
+        {
+            "courses_title": "1st yr italian i",
+            "courses_avg": 80.67
+        },
+        {
+            "courses_title": "nuc weapns cntrl",
+            "courses_avg": 80.7
+        },
+        {
+            "courses_title": "clin&ind bio eng",
+            "courses_avg": 80.7
+        },
+        {
+            "courses_title": "int anc grek prs",
+            "courses_avg": 80.71
+        },
+        {
+            "courses_title": "research methods",
+            "courses_avg": 80.72
+        },
+        {
+            "courses_title": "adv grdwtr hydgy",
+            "courses_avg": 80.77
+        },
+        {
+            "courses_title": "arch design v",
+            "courses_avg": 80.78
+        },
+        {
+            "courses_title": "childbring women",
+            "courses_avg": 80.8
+        },
+        {
+            "courses_title": "flds&galois thry",
+            "courses_avg": 80.8
+        },
+        {
+            "courses_title": "2 party negotns",
+            "courses_avg": 80.8
+        },
+        {
+            "courses_title": "monitor & optimz",
+            "courses_avg": 80.89
+        },
+        {
+            "courses_title": "disc lit int-sec",
+            "courses_avg": 80.89
+        },
+        {
+            "courses_title": "humn genom&genet",
+            "courses_avg": 80.91
+        },
+        {
+            "courses_title": "org behav",
+            "courses_avg": 80.92
+        },
+        {
+            "courses_title": "begin germ 2",
+            "courses_avg": 80.95
+        },
+        {
+            "courses_title": "negotiation",
+            "courses_avg": 80.97
+        },
+        {
+            "courses_title": "plnt-micr inter",
+            "courses_avg": 81
+        },
+        {
+            "courses_title": "negotiation",
+            "courses_avg": 81.03
+        },
+        {
+            "courses_title": "fndtns  accnting",
+            "courses_avg": 81.05
+        },
+        {
+            "courses_title": "org behav",
+            "courses_avg": 81.07
+        },
+        {
+            "courses_title": "invest policy",
+            "courses_avg": 81.08
+        },
+        {
+            "courses_title": "adv doc dev&prod",
+            "courses_avg": 81.11
+        },
+        {
+            "courses_title": "supply chain mng",
+            "courses_avg": 81.14
+        },
+        {
+            "courses_title": "3rd year ital i",
+            "courses_avg": 81.15
+        },
+        {
+            "courses_title": "major seminr lit",
+            "courses_avg": 81.15
+        },
+        {
+            "courses_title": "intr sftwr eng",
+            "courses_avg": 81.17
+        },
+        {
+            "courses_title": "2 party negotns",
+            "courses_avg": 81.18
+        },
+        {
+            "courses_title": "instrumentation",
+            "courses_avg": 81.19
+        },
+        {
+            "courses_title": "leadership",
+            "courses_avg": 81.21
+        },
+        {
+            "courses_title": "innov&entrepren",
+            "courses_avg": 81.22
+        },
+        {
+            "courses_title": "envr des stdio i",
+            "courses_avg": 81.23
+        },
+        {
+            "courses_title": "org behav",
+            "courses_avg": 81.24
+        },
+        {
+            "courses_title": "ethical iss scie",
+            "courses_avg": 81.26
+        },
+        {
+            "courses_title": "rnl bs drug ther",
+            "courses_avg": 81.29
+        },
+        {
+            "courses_title": "design media i",
+            "courses_avg": 81.31
+        },
+        {
+            "courses_title": "child & yng adlt",
+            "courses_avg": 81.36
+        },
+        {
+            "courses_title": "ldrshp develpmnt",
+            "courses_avg": 81.41
+        },
+        {
+            "courses_title": "biology of cell",
+            "courses_avg": 81.45
+        },
+        {
+            "courses_title": "research methods",
+            "courses_avg": 81.49
+        },
+        {
+            "courses_title": "inter germ iii",
+            "courses_avg": 81.5
+        },
+        {
+            "courses_title": "adv food chemist",
+            "courses_avg": 81.5
+        },
+        {
+            "courses_title": "dsn mtd bus invt",
+            "courses_avg": 81.53
+        },
+        {
+            "courses_title": "prfrmnc planning",
+            "courses_avg": 81.56
+        },
+        {
+            "courses_title": "inter germ i",
+            "courses_avg": 81.56
+        },
+        {
+            "courses_title": "managerl decisns",
+            "courses_avg": 81.61
+        },
+        {
+            "courses_title": "sustn & ldrshp",
+            "courses_avg": 81.64
+        },
+        {
+            "courses_title": "commnty & popltn",
+            "courses_avg": 81.65
+        },
+        {
+            "courses_title": "intr envrmnt sci",
+            "courses_avg": 81.65
+        },
+        {
+            "courses_title": "fndmntl accnting",
+            "courses_avg": 81.69
+        },
+        {
+            "courses_title": "fin stmt anly i",
+            "courses_avg": 81.76
+        },
+        {
+            "courses_title": "invest theory",
+            "courses_avg": 81.79
+        },
+        {
+            "courses_title": "advanced comp",
+            "courses_avg": 81.84
+        },
+        {
+            "courses_title": "intrd app fren i",
+            "courses_avg": 81.88
+        },
+        {
+            "courses_title": "dynamics & waves",
+            "courses_avg": 81.89
+        },
+        {
+            "courses_title": "adv res sem wmst",
+            "courses_avg": 81.93
+        },
+        {
+            "courses_title": "major seminr lit",
+            "courses_avg": 81.93
+        },
+        {
+            "courses_title": "env & sus concep",
+            "courses_avg": 81.97
+        },
+        {
+            "courses_title": "coal prep tech",
+            "courses_avg": 82
+        },
+        {
+            "courses_title": "arch design v",
+            "courses_avg": 82
+        },
+        {
+            "courses_title": "arch design iii",
+            "courses_avg": 82
+        },
+        {
+            "courses_title": "managerl decisns",
+            "courses_avg": 82.03
+        },
+        {
+            "courses_title": "high perf cond",
+            "courses_avg": 82.04
+        },
+        {
+            "courses_title": "advances fd sci",
+            "courses_avg": 82.07
+        },
+        {
+            "courses_title": "intrntl trdg env",
+            "courses_avg": 82.07
+        },
+        {
+            "courses_title": "fnd mgr econ",
+            "courses_avg": 82.08
+        },
+        {
+            "courses_title": "semnr hist&thry",
+            "courses_avg": 82.1
+        },
+        {
+            "courses_title": "envirn&cell toxi",
+            "courses_avg": 82.13
+        },
+        {
+            "courses_title": "quant mtds&anyl",
+            "courses_avg": 82.22
+        },
+        {
+            "courses_title": "oper & log",
+            "courses_avg": 82.22
+        },
+        {
+            "courses_title": "urbn trans systm",
+            "courses_avg": 82.29
+        },
+        {
+            "courses_title": "invest theory",
+            "courses_avg": 82.31
+        },
+        {
+            "courses_title": "larc history",
+            "courses_avg": 82.32
+        },
+        {
+            "courses_title": "cs phar sci iv",
+            "courses_avg": 82.35
+        },
+        {
+            "courses_title": "select libr res",
+            "courses_avg": 82.37
+        },
+        {
+            "courses_title": "ldrshp develpmnt",
+            "courses_avg": 82.43
+        },
+        {
+            "courses_title": "sustain forests",
+            "courses_avg": 82.45
+        },
+        {
+            "courses_title": "marketing",
+            "courses_avg": 82.45
+        },
+        {
+            "courses_title": "basic intvw skls",
+            "courses_avg": 82.6
+        },
+        {
+            "courses_title": "intl mrkt",
+            "courses_avg": 82.64
+        },
+        {
+            "courses_title": "intl fd law&regs",
+            "courses_avg": 82.65
+        },
+        {
+            "courses_title": "machine lrn mine",
+            "courses_avg": 82.66
+        },
+        {
+            "courses_title": "fin stmt anly i",
+            "courses_avg": 82.7
+        },
+        {
+            "courses_title": "ldrshp develpmnt",
+            "courses_avg": 82.71
+        },
+        {
+            "courses_title": "mng employ rel",
+            "courses_avg": 82.82
+        },
+        {
+            "courses_title": "radioiso sci&med",
+            "courses_avg": 82.88
+        },
+        {
+            "courses_title": "intr graph forms",
+            "courses_avg": 82.88
+        },
+        {
+            "courses_title": "infnt chld youth",
+            "courses_avg": 82.89
+        },
+        {
+            "courses_title": "acq syntax",
+            "courses_avg": 82.92
+        },
+        {
+            "courses_title": "basic intvw skls",
+            "courses_avg": 82.92
+        },
+        {
+            "courses_title": "prj mgt bsn sol",
+            "courses_avg": 82.92
+        },
+        {
+            "courses_title": "animls globl iss",
+            "courses_avg": 82.93
+        },
+        {
+            "courses_title": "mgrs & acquisitn",
+            "courses_avg": 82.95
+        },
+        {
+            "courses_title": "fr prc nnspec i",
+            "courses_avg": 83
+        },
+        {
+            "courses_title": "intntl finan env",
+            "courses_avg": 83
+        },
+        {
+            "courses_title": "grammar & usage",
+            "courses_avg": 83.03
+        },
+        {
+            "courses_title": "childbring women",
+            "courses_avg": 83.05
+        },
+        {
+            "courses_title": "grs&pop cultr",
+            "courses_avg": 83.09
+        },
+        {
+            "courses_title": "eng econ",
+            "courses_avg": 83.12
+        },
+        {
+            "courses_title": "dsn mtd bus invt",
+            "courses_avg": 83.12
+        },
+        {
+            "courses_title": "la dsn std iv",
+            "courses_avg": 83.13
+        },
+        {
+            "courses_title": "meths of resrch",
+            "courses_avg": 83.14
+        },
+        {
+            "courses_title": "mng info tech",
+            "courses_avg": 83.15
+        },
+        {
+            "courses_title": "grw&exit venture",
+            "courses_avg": 83.17
+        },
+        {
+            "courses_title": "animals&society",
+            "courses_avg": 83.22
+        },
+        {
+            "courses_title": "select libr res",
+            "courses_avg": 83.24
+        },
+        {
+            "courses_title": "rdiothrpy phy i",
+            "courses_avg": 83.25
+        },
+        {
+            "courses_title": "infnt chld youth",
+            "courses_avg": 83.26
+        },
+        {
+            "courses_title": "resdesc knoworg",
+            "courses_avg": 83.33
+        },
+        {
+            "courses_title": "math for econmic",
+            "courses_avg": 83.36
+        },
+        {
+            "courses_title": "site analys&plan",
+            "courses_avg": 83.38
+        },
+        {
+            "courses_title": "basic intvw skls",
+            "courses_avg": 83.38
+        },
+        {
+            "courses_title": "int thry counsel",
+            "courses_avg": 83.39
+        },
+        {
+            "courses_title": "acous & art phon",
+            "courses_avg": 83.42
+        },
+        {
+            "courses_title": "fndtns nurs prac",
+            "courses_avg": 83.43
+        },
+        {
+            "courses_title": "intl finl mngmnt",
+            "courses_avg": 83.44
+        },
+        {
+            "courses_title": "la dsn std iv",
+            "courses_avg": 83.45
+        },
+        {
+            "courses_title": "la dsgn std i",
+            "courses_avg": 83.46
+        },
+        {
+            "courses_title": "arch technol ii",
+            "courses_avg": 83.47
+        },
+        {
+            "courses_title": "intntl finan env",
+            "courses_avg": 83.48
+        },
+        {
+            "courses_title": "mdl indstrl syst",
+            "courses_avg": 83.5
+        },
+        {
+            "courses_title": "info practices",
+            "courses_avg": 83.53
+        },
+        {
+            "courses_title": "new product dev",
+            "courses_avg": 83.54
+        },
+        {
+            "courses_title": "lnd info acq&anl",
+            "courses_avg": 83.55
+        },
+        {
+            "courses_title": "oper & log",
+            "courses_avg": 83.57
+        },
+        {
+            "courses_title": "econ, cont, fina",
+            "courses_avg": 83.6
+        },
+        {
+            "courses_title": "fin engineering",
+            "courses_avg": 83.6
+        },
+        {
+            "courses_title": "issus gndr&hlth",
+            "courses_avg": 83.64
+        },
+        {
+            "courses_title": "maj & hon semin",
+            "courses_avg": 83.64
+        },
+        {
+            "courses_title": "prin behav anlys",
+            "courses_avg": 83.64
+        },
+        {
+            "courses_title": "arch sys & prof",
+            "courses_avg": 83.67
+        },
+        {
+            "courses_title": "biology of cell",
+            "courses_avg": 83.68
+        },
+        {
+            "courses_title": "arch design",
+            "courses_avg": 83.71
+        },
+        {
+            "courses_title": "consult prac i",
+            "courses_avg": 83.77
+        },
+        {
+            "courses_title": "begin germ i",
+            "courses_avg": 83.81
+        },
+        {
+            "courses_title": "com adult educ",
+            "courses_avg": 83.87
+        },
+        {
+            "courses_title": "begin germ i",
+            "courses_avg": 83.88
+        },
+        {
+            "courses_title": "arr/desc arch",
+            "courses_avg": 83.89
+        },
+        {
+            "courses_title": "sp rlvty & elcmg",
+            "courses_avg": 83.9
+        },
+        {
+            "courses_title": "tech entreprenr",
+            "courses_avg": 83.92
+        },
+        {
+            "courses_title": "tpc corp finance",
+            "courses_avg": 83.92
+        },
+        {
+            "courses_title": "business writing",
+            "courses_avg": 83.95
+        },
+        {
+            "courses_title": "intro finance",
+            "courses_avg": 83.96
+        },
+        {
+            "courses_title": "mgmt curr recrds",
+            "courses_avg": 83.96
+        },
+        {
+            "courses_title": "invest theory",
+            "courses_avg": 84.02
+        },
+        {
+            "courses_title": "evo cell biology",
+            "courses_avg": 84.03
+        },
+        {
+            "courses_title": "ventr learn tech",
+            "courses_avg": 84.06
+        },
+        {
+            "courses_title": "grm lit pst 1945",
+            "courses_avg": 84.08
+        },
+        {
+            "courses_title": "preservation",
+            "courses_avg": 84.08
+        },
+        {
+            "courses_title": "fnh busns concep",
+            "courses_avg": 84.09
+        },
+        {
+            "courses_title": "dsg, med&rep",
+            "courses_avg": 84.1
+        },
+        {
+            "courses_title": "supp comm sp nds",
+            "courses_avg": 84.1
+        },
+        {
+            "courses_title": "grm lit 1900-45",
+            "courses_avg": 84.11
+        },
+        {
+            "courses_title": "intr stat rs edu",
+            "courses_avg": 84.18
+        },
+        {
+            "courses_title": "fnd mgr econ",
+            "courses_avg": 84.18
+        },
+        {
+            "courses_title": "la dsn std iv",
+            "courses_avg": 84.2
+        },
+        {
+            "courses_title": "fren lang&lit i",
+            "courses_avg": 84.2
+        },
+        {
+            "courses_title": "int rate risk mg",
+            "courses_avg": 84.26
+        },
+        {
+            "courses_title": "res tch & lrn sc",
+            "courses_avg": 84.29
+        },
+        {
+            "courses_title": "bio-inorganic",
+            "courses_avg": 84.29
+        },
+        {
+            "courses_title": "prob mgmt models",
+            "courses_avg": 84.29
+        },
+        {
+            "courses_title": "cond matter i",
+            "courses_avg": 84.31
+        },
+        {
+            "courses_title": "int ethnmuscolgy",
+            "courses_avg": 84.33
+        },
+        {
+            "courses_title": "new product dev",
+            "courses_avg": 84.34
+        },
+        {
+            "courses_title": "adlt mntl illnss",
+            "courses_avg": 84.37
+        },
+        {
+            "courses_title": "intr writ nw med",
+            "courses_avg": 84.37
+        },
+        {
+            "courses_title": "mtrl&mthd constr",
+            "courses_avg": 84.37
+        },
+        {
+            "courses_title": "begin germ i",
+            "courses_avg": 84.41
+        },
+        {
+            "courses_title": "fnd agr-food bsn",
+            "courses_avg": 84.45
+        },
+        {
+            "courses_title": "cl&ind biomd eng",
+            "courses_avg": 84.45
+        },
+        {
+            "courses_title": "nat hlth prodcts",
+            "courses_avg": 84.51
+        },
+        {
+            "courses_title": "data anly&utiliz",
+            "courses_avg": 84.51
+        },
+        {
+            "courses_title": "ord diff equtns",
+            "courses_avg": 84.54
+        },
+        {
+            "courses_title": "human-infrmation",
+            "courses_avg": 84.56
+        },
+        {
+            "courses_title": "begin germ i",
+            "courses_avg": 84.57
+        },
+        {
+            "courses_title": "begin germ i",
+            "courses_avg": 84.57
+        },
+        {
+            "courses_title": "grad project ii",
+            "courses_avg": 84.62
+        },
+        {
+            "courses_title": "first nations bc",
+            "courses_avg": 84.67
+        },
+        {
+            "courses_title": "intrapreneurship",
+            "courses_avg": 84.68
+        },
+        {
+            "courses_title": "landscp tech ii",
+            "courses_avg": 84.69
+        },
+        {
+            "courses_title": "services mgnt",
+            "courses_avg": 84.71
+        },
+        {
+            "courses_title": "creativity",
+            "courses_avg": 84.74
+        },
+        {
+            "courses_title": "fdn ntrn care i",
+            "courses_avg": 84.82
+        },
+        {
+            "courses_title": "rsrch evidence",
+            "courses_avg": 84.86
+        },
+        {
+            "courses_title": "mgrs & acquisitn",
+            "courses_avg": 84.86
+        },
+        {
+            "courses_title": "stoch processes",
+            "courses_avg": 84.86
+        },
+        {
+            "courses_title": "preservation",
+            "courses_avg": 85
+        },
+        {
+            "courses_title": "intr writ nw med",
+            "courses_avg": 85.02
+        },
+        {
+            "courses_title": "principl finance",
+            "courses_avg": 85.05
+        },
+        {
+            "courses_title": "forestry in b.c.",
+            "courses_avg": 85.07
+        },
+        {
+            "courses_title": "intr tch ch lit",
+            "courses_avg": 85.08
+        },
+        {
+            "courses_title": "env tech iss",
+            "courses_avg": 85.11
+        },
+        {
+            "courses_title": "intr writ nw med",
+            "courses_avg": 85.11
+        },
+        {
+            "courses_title": "begin germ i",
+            "courses_avg": 85.12
+        },
+        {
+            "courses_title": "supply ch anyl",
+            "courses_avg": 85.12
+        },
+        {
+            "courses_title": "grad project  i",
+            "courses_avg": 85.14
+        },
+        {
+            "courses_title": "eco-based mgmt",
+            "courses_avg": 85.26
+        },
+        {
+            "courses_title": "sys resrc mgmt",
+            "courses_avg": 85.26
+        },
+        {
+            "courses_title": "instructnl role",
+            "courses_avg": 85.31
+        },
+        {
+            "courses_title": "adv cel&mol phys",
+            "courses_avg": 85.33
+        },
+        {
+            "courses_title": "structures i",
+            "courses_avg": 85.36
+        },
+        {
+            "courses_title": "env desn std iii",
+            "courses_avg": 85.39
+        },
+        {
+            "courses_title": "fnd mgr econ",
+            "courses_avg": 85.4
+        },
+        {
+            "courses_title": "com adult educ",
+            "courses_avg": 85.41
+        },
+        {
+            "courses_title": "plan pract mthds",
+            "courses_avg": 85.42
+        },
+        {
+            "courses_title": "econometric meth",
+            "courses_avg": 85.43
+        },
+        {
+            "courses_title": "res mthd in educ",
+            "courses_avg": 85.44
+        },
+        {
+            "courses_title": "info org mgmt",
+            "courses_avg": 85.46
+        },
+        {
+            "courses_title": "adlt mntl illnss",
+            "courses_avg": 85.5
+        },
+        {
+            "courses_title": "arch design v",
+            "courses_avg": 85.5
+        },
+        {
+            "courses_title": "basic intvw skls",
+            "courses_avg": 85.53
+        },
+        {
+            "courses_title": "for & env policy",
+            "courses_avg": 85.56
+        },
+        {
+            "courses_title": "intro finance",
+            "courses_avg": 85.58
+        },
+        {
+            "courses_title": "m.a. sc. thesis",
+            "courses_avg": 85.6
+        },
+        {
+            "courses_title": "real estate inv",
+            "courses_avg": 85.62
+        },
+        {
+            "courses_title": "begin germ i",
+            "courses_avg": 85.65
+        },
+        {
+            "courses_title": "begin germ i",
+            "courses_avg": 85.66
+        },
+        {
+            "courses_title": "spec tpcs kin",
+            "courses_avg": 85.67
+        },
+        {
+            "courses_title": "la dsn std v",
+            "courses_avg": 85.71
+        },
+        {
+            "courses_title": "ornith&herpetlgy",
+            "courses_avg": 85.71
+        },
+        {
+            "courses_title": "path for pt 3",
+            "courses_avg": 85.72
+        },
+        {
+            "courses_title": "honours seminar",
+            "courses_avg": 85.73
+        },
+        {
+            "courses_title": "begin germ i",
+            "courses_avg": 85.76
+        },
+        {
+            "courses_title": "stat mechanics",
+            "courses_avg": 85.83
+        },
+        {
+            "courses_title": "data anly&utiliz",
+            "courses_avg": 85.89
+        },
+        {
+            "courses_title": "kinder curriclm",
+            "courses_avg": 85.9
+        },
+        {
+            "courses_title": "begin germ i",
+            "courses_avg": 85.97
+        },
+        {
+            "courses_title": "appl hlth serv",
+            "courses_avg": 86
+        },
+        {
+            "courses_title": "complex analysis",
+            "courses_avg": 86
+        },
+        {
+            "courses_title": "begin germ i",
+            "courses_avg": 86.04
+        },
+        {
+            "courses_title": "macro economics",
+            "courses_avg": 86.1
+        },
+        {
+            "courses_title": "ecol methodology",
+            "courses_avg": 86.1
+        },
+        {
+            "courses_title": "catlg & class",
+            "courses_avg": 86.21
+        },
+        {
+            "courses_title": "fundamental audi",
+            "courses_avg": 86.22
+        },
+        {
+            "courses_title": "dev wkshp/sem",
+            "courses_avg": 86.24
+        },
+        {
+            "courses_title": "ma research sem",
+            "courses_avg": 86.25
+        },
+        {
+            "courses_title": "adv germ",
+            "courses_avg": 86.25
+        },
+        {
+            "courses_title": "rsc trd edu admn",
+            "courses_avg": 86.25
+        },
+        {
+            "courses_title": "arch design iii",
+            "courses_avg": 86.25
+        },
+        {
+            "courses_title": "cell biol intrfk",
+            "courses_avg": 86.28
+        },
+        {
+            "courses_title": "adv tpcs prot ch",
+            "courses_avg": 86.28
+        },
+        {
+            "courses_title": "gross anat limbs",
+            "courses_avg": 86.29
+        },
+        {
+            "courses_title": "doc proseminar",
+            "courses_avg": 86.33
+        },
+        {
+            "courses_title": "qlt rsrch mthd",
+            "courses_avg": 86.33
+        },
+        {
+            "courses_title": "quantat skills",
+            "courses_avg": 86.37
+        },
+        {
+            "courses_title": "phys earth&plnts",
+            "courses_avg": 86.39
+        },
+        {
+            "courses_title": "biophysical chem",
+            "courses_avg": 86.4
+        },
+        {
+            "courses_title": "biol of the cell",
+            "courses_avg": 86.42
+        },
+        {
+            "courses_title": "la dsn std v",
+            "courses_avg": 86.5
+        },
+        {
+            "courses_title": "creativity",
+            "courses_avg": 86.53
+        },
+        {
+            "courses_title": "presrv dig recds",
+            "courses_avg": 86.6
+        },
+        {
+            "courses_title": "coast terr esyst",
+            "courses_avg": 86.63
+        },
+        {
+            "courses_title": "la dsn std iv",
+            "courses_avg": 86.64
+        },
+        {
+            "courses_title": "grn nanoelec dev",
+            "courses_avg": 86.7
+        },
+        {
+            "courses_title": "fmly ed & consul",
+            "courses_avg": 86.7
+        },
+        {
+            "courses_title": "rsc trd edu admn",
+            "courses_avg": 86.76
+        },
+        {
+            "courses_title": "mrkt research",
+            "courses_avg": 86.82
+        },
+        {
+            "courses_title": "2nd lang assess: c&e app",
+            "courses_avg": 86.86
+        },
+        {
+            "courses_title": "creativity busns",
+            "courses_avg": 86.86
+        },
+        {
+            "courses_title": "lab expl earth",
+            "courses_avg": 86.88
+        },
+        {
+            "courses_title": "elem danish 1",
+            "courses_avg": 86.89
+        },
+        {
+            "courses_title": "archival dplmtcs",
+            "courses_avg": 86.92
+        },
+        {
+            "courses_title": "adv bioc technqs",
+            "courses_avg": 87
+        },
+        {
+            "courses_title": "adv food anlysis",
+            "courses_avg": 87.09
+        },
+        {
+            "courses_title": "tcher union educ",
+            "courses_avg": 87.14
+        },
+        {
+            "courses_title": "creativity",
+            "courses_avg": 87.24
+        },
+        {
+            "courses_title": "org&admin hi edu",
+            "courses_avg": 87.25
+        },
+        {
+            "courses_title": "food microbi lab",
+            "courses_avg": 87.26
+        },
+        {
+            "courses_title": "phon thry&anl",
+            "courses_avg": 87.4
+        },
+        {
+            "courses_title": "directed study",
+            "courses_avg": 87.5
+        },
+        {
+            "courses_title": "intmed salish i",
+            "courses_avg": 87.5
+        },
+        {
+            "courses_title": "path for pt 1",
+            "courses_avg": 87.54
+        },
+        {
+            "courses_title": "anim cell molec",
+            "courses_avg": 87.58
+        },
+        {
+            "courses_title": "intclt hlth&phys",
+            "courses_avg": 87.62
+        },
+        {
+            "courses_title": "principl finance",
+            "courses_avg": 87.69
+        },
+        {
+            "courses_title": "conducting",
+            "courses_avg": 87.73
+        },
+        {
+            "courses_title": "civl engineer i",
+            "courses_avg": 87.74
+        },
+        {
+            "courses_title": "seminar",
+            "courses_avg": 87.75
+        },
+        {
+            "courses_title": "begin germ i",
+            "courses_avg": 87.79
+        },
+        {
+            "courses_title": "meas thry&integr",
+            "courses_avg": 87.8
+        },
+        {
+            "courses_title": "asymp&prtb mthds",
+            "courses_avg": 87.8
+        },
+        {
+            "courses_title": "intro finance",
+            "courses_avg": 87.82
+        },
+        {
+            "courses_title": "exercise move i",
+            "courses_avg": 87.91
+        },
+        {
+            "courses_title": "rsrch meth 1",
+            "courses_avg": 87.92
+        },
+        {
+            "courses_title": "la dsn std v",
+            "courses_avg": 88
+        },
+        {
+            "courses_title": "inter germ i",
+            "courses_avg": 88.04
+        },
+        {
+            "courses_title": "incl bl vis-imp",
+            "courses_avg": 88.12
+        },
+        {
+            "courses_title": "moment heat mass",
+            "courses_avg": 88.25
+        },
+        {
+            "courses_title": "masc thesis",
+            "courses_avg": 88.29
+        },
+        {
+            "courses_title": "lab expl earth",
+            "courses_avg": 88.3
+        },
+        {
+            "courses_title": "devlpmt neurbiol",
+            "courses_avg": 88.33
+        },
+        {
+            "courses_title": "lrn'g disablties",
+            "courses_avg": 88.36
+        },
+        {
+            "courses_title": "intro finance",
+            "courses_avg": 88.39
+        },
+        {
+            "courses_title": "clin prac iva",
+            "courses_avg": 88.4
+        },
+        {
+            "courses_title": "tech comm skills",
+            "courses_avg": 88.4
+        },
+        {
+            "courses_title": "evl mor mar invr",
+            "courses_avg": 88.43
+        },
+        {
+            "courses_title": "probability i",
+            "courses_avg": 88.5
+        },
+        {
+            "courses_title": "fnds ad lrng ed",
+            "courses_avg": 88.57
+        },
+        {
+            "courses_title": "basic intvw skls",
+            "courses_avg": 88.57
+        },
+        {
+            "courses_title": "adv conc pharmac",
+            "courses_avg": 88.7
+        },
+        {
+            "courses_title": "eng proj",
+            "courses_avg": 88.75
+        },
+        {
+            "courses_title": "frsts & society",
+            "courses_avg": 88.75
+        },
+        {
+            "courses_title": "tech comm skills",
+            "courses_avg": 88.87
+        },
+        {
+            "courses_title": "measr data anlys",
+            "courses_avg": 88.92
+        },
+        {
+            "courses_title": "intro excp child",
+            "courses_avg": 88.92
+        },
+        {
+            "courses_title": "int danish 1",
+            "courses_avg": 89
+        },
+        {
+            "courses_title": "career planning",
+            "courses_avg": 89
+        },
+        {
+            "courses_title": "counslng adults",
+            "courses_avg": 89.06
+        },
+        {
+            "courses_title": "music education",
+            "courses_avg": 89.11
+        },
+        {
+            "courses_title": "psnl soc dv adlt",
+            "courses_avg": 89.17
+        },
+        {
+            "courses_title": "educ theories",
+            "courses_avg": 89.23
+        },
+        {
+            "courses_title": "arch design v",
+            "courses_avg": 89.25
+        },
+        {
+            "courses_title": "mthds asymp anal",
+            "courses_avg": 89.38
+        },
+        {
+            "courses_title": "ldrshp educ org",
+            "courses_avg": 89.4
+        },
+        {
+            "courses_title": "group counsling",
+            "courses_avg": 89.4
+        },
+        {
+            "courses_title": "ldrshp ethcs pol",
+            "courses_avg": 89.46
+        },
+        {
+            "courses_title": "sch lrc prog",
+            "courses_avg": 89.47
+        },
+        {
+            "courses_title": "advanced ital i",
+            "courses_avg": 89.5
+        },
+        {
+            "courses_title": "appl lear theor",
+            "courses_avg": 89.5
+        },
+        {
+            "courses_title": "pthophysiol proc",
+            "courses_avg": 89.6
+        },
+        {
+            "courses_title": "lab expl earth",
+            "courses_avg": 89.62
+        },
+        {
+            "courses_title": "birth meaning",
+            "courses_avg": 89.76
+        },
+        {
+            "courses_title": "cochl implants",
+            "courses_avg": 89.83
+        },
+        {
+            "courses_title": "bioenrgtc ph act",
+            "courses_avg": 90
+        },
+        {
+            "courses_title": "adu edu pro",
+            "courses_avg": 90
+        },
+        {
+            "courses_title": "lab expl earth",
+            "courses_avg": 90.15
+        },
+        {
+            "courses_title": "math operations",
+            "courses_avg": 90.54
+        },
+        {
+            "courses_title": "educ stds autism",
+            "courses_avg": 90.59
+        },
+        {
+            "courses_title": "sem in botany",
+            "courses_avg": 90.71
+        },
+        {
+            "courses_title": "appl lear theor",
+            "courses_avg": 90.86
+        },
+        {
+            "courses_title": "drug safety",
+            "courses_avg": 91.07
+        },
+        {
+            "courses_title": "database design",
+            "courses_avg": 91.23
+        },
+        {
+            "courses_title": "dgtl libraries",
+            "courses_avg": 91.24
+        },
+        {
+            "courses_title": "sem r prpty dv&p",
+            "courses_avg": 91.28
+        },
+        {
+            "courses_title": "com adult educ",
+            "courses_avg": 91.29
+        },
+        {
+            "courses_title": "prg child sp lrn",
+            "courses_avg": 91.33
+        },
+        {
+            "courses_title": "ethics mtrnycare",
+            "courses_avg": 91.5
+        },
+        {
+            "courses_title": "educ stds autism",
+            "courses_avg": 91.57
+        },
+        {
+            "courses_title": "phar care aborig",
+            "courses_avg": 91.63
+        },
+        {
+            "courses_title": "serv for chld",
+            "courses_avg": 91.63
+        },
+        {
+            "courses_title": "ed st dvl ds inc",
+            "courses_avg": 91.72
+        },
+        {
+            "courses_title": "hearng and noise",
+            "courses_avg": 91.75
+        },
+        {
+            "courses_title": "curric iss&thry",
+            "courses_avg": 91.78
+        },
+        {
+            "courses_title": "clinical skills",
+            "courses_avg": 91.79
+        },
+        {
+            "courses_title": "adv hum mole gen",
+            "courses_avg": 91.83
+        },
+        {
+            "courses_title": "urb dsgn thr&met",
+            "courses_avg": 92.07
+        },
+        {
+            "courses_title": "hn dev, lrn, cul",
+            "courses_avg": 92.22
+        },
+        {
+            "courses_title": "",
+            "courses_avg": 92.22
+        },
+        {
+            "courses_title": "assess lrn diffi",
+            "courses_avg": 92.3
+        },
+        {
+            "courses_title": "crit spec ed",
+            "courses_avg": 92.36
+        },
+        {
+            "courses_title": "admn of injectns",
+            "courses_avg": 92.66
+        },
+        {
+            "courses_title": "asmnt spec needs",
+            "courses_avg": 92.67
+        },
+        {
+            "courses_title": "thesis",
+            "courses_avg": 92.88
+        },
+        {
+            "courses_title": "surv bhvr dis ch",
+            "courses_avg": 92.91
+        },
+        {
+            "courses_title": "thry&rs soc cont",
+            "courses_avg": 93
+        },
+        {
+            "courses_title": "complex analy",
+            "courses_avg": 93.2
+        },
+        {
+            "courses_title": "thr lng&lit rsrc",
+            "courses_avg": 93.2
+        },
+        {
+            "courses_title": "lang dev life",
+            "courses_avg": 93.2
+        },
+        {
+            "courses_title": "dev wkshp/sem",
+            "courses_avg": 93.33
+        },
+        {
+            "courses_title": "adv hlth assess",
+            "courses_avg": 93.4
+        },
+        {
+            "courses_title": "hist poplr music",
+            "courses_avg": 93.45
+        },
+        {
+            "courses_title": "ed st dvl ds inc",
+            "courses_avg": 93.65
+        },
+        {
+            "courses_title": "typ atyp inf/ch",
+            "courses_avg": 93.9
+        },
+        {
+            "courses_title": "exp des anl ed",
+            "courses_avg": 94.29
+        },
+        {
+            "courses_title": "res mthd in educ",
+            "courses_avg": 94.75
+        },
+        {
+            "courses_title": "spc tpcs macroec",
+            "courses_avg": 95
+        },
+        {
+            "courses_title": "adlt psychpathlg",
+            "courses_avg": 95
+        },
+        {
+            "courses_title": "islnd wild mgmt",
+            "courses_avg": 95.26
+        },
+        {
+            "courses_title": "indig, tech&ed",
+            "courses_avg": 95.32
+        },
+        {
+            "courses_title": "exp des anl ed",
+            "courses_avg": 95.9
+        },
+        {
+            "courses_title": "eth&profl issues",
+            "courses_avg": 96.73
+        },
+        {
+            "courses_title": "diff geometry i",
+            "courses_avg": 97.25
+        }
+    ]
+}

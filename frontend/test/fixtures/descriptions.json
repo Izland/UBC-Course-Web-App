@@ -1,0 +1,8 @@
+{
+    "query1": "simple query IS comparison for department with two columns and old order syntax",
+    "query2": "query with transformations and sort down",
+    "query3": "simple query with no transformations and one order",
+    "query4": "query with count transformation",
+    "query5": "simply query with no transformations and no order",
+    "query6": "same as query5 but with an added button in html"
+}

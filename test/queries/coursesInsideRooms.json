@@ -1,0 +1,55 @@
+{
+    "title": "misspell options, insight error",
+    "query": {
+        "WHERE": {},
+        "OPTIONS": {
+            "COLUMNS": [
+                "rooms_address",
+                "rooms_furniture",
+                "rooms_href",
+                "rooms_lat",
+                "rooms_lon",
+                "rooms_seats",
+                "courses_avg",
+                "count",
+                "rooms_fullname",
+                "rooms_shortname",
+                "rooms_number",
+                "rooms_name",
+                "rooms_type"
+            ],
+            "ORDER": {
+                "dir": "UP",
+                "keys": [
+                    "rooms_address",
+                    "count"
+                ]
+            }
+        },
+        "TRANSFORMATIONS": {
+            "GROUP": [
+                "rooms_address",
+                "rooms_furniture",
+                "rooms_href",
+                "rooms_lat",
+                "rooms_lon",
+                "rooms_seats",
+                "rooms_fullname",
+                "rooms_shortname",
+                "rooms_number",
+                "rooms_name",
+                "rooms_type"
+            ],
+            "APPLY": [
+                {
+                    "count": {
+                        "COUNT": "rooms_type"
+                    }
+                }
+            ]
+        }
+    },
+
+    "isQueryValid": false,
+    "result": "InsightError"
+}

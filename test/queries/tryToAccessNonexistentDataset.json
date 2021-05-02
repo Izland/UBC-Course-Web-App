@@ -1,0 +1,38 @@
+{
+    "title": "Try to reference non existent dataset, throw InsightError",
+    "query": {
+        "WHERE": {
+            "AND": [
+                {
+                    "AND": [
+                        {
+                            "LT": {
+                                "data_avg": 50
+                            }
+                        },
+                        {
+                            "EQ": {
+                                "data_avg": 50
+                            }
+                        }
+                    ]
+                },
+                {
+                    "IS": {
+                        "data_dept": "math"
+                    }
+                }
+            ]
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "data_dept",
+                "data_avg",
+                "data_id"
+            ],
+            "ORDER": "data_avg"
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

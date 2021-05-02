@@ -1,0 +1,20 @@
+{
+    "title": "SELECT pass WHERE pass > 1400",
+    "query": {
+        "WHERE": {
+            "EQ": {
+                "courses_avg": 97,
+                "courses_pass": 95
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_title",
+                "courses_avg"
+            ],
+            "ORDER": "courses_avg"
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

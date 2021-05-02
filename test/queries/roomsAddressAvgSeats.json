@@ -1,0 +1,210 @@
+{
+    "title": "find max avg, group by audit",
+    "query": {
+        "WHERE": {},
+        "OPTIONS": {
+            "COLUMNS": [
+                "rooms_address",
+                "avgSeats"
+            ],
+            "ORDER": {
+                "dir": "DOWN",
+                "keys": [
+                    "rooms_address",
+                    "avgSeats"
+                ]
+            }
+        },
+        "TRANSFORMATIONS": {
+            "GROUP": [
+                "rooms_address"
+            ],
+            "APPLY": [
+                {
+                    "avgSeats": {
+                        "AVG": "rooms_seats"
+                    }
+                }
+            ]
+        }
+    },
+    "isQueryValid": true,
+    "result": [
+        {
+            "rooms_address": "6445 University Boulevard",
+            "avgSeats": 30
+        },
+        {
+            "rooms_address": "6363 Agronomy Road",
+            "avgSeats": 31.52
+        },
+        {
+            "rooms_address": "6356 Agricultural Road",
+            "avgSeats": 126.25
+        },
+        {
+            "rooms_address": "6350 Stores Road",
+            "avgSeats": 47.33
+        },
+        {
+            "rooms_address": "6339 Stores Road",
+            "avgSeats": 50
+        },
+        {
+            "rooms_address": "6333 Memorial Road",
+            "avgSeats": 54.17
+        },
+        {
+            "rooms_address": "6331 Crescent Road V6T 1Z1",
+            "avgSeats": 40.75
+        },
+        {
+            "rooms_address": "6303 North West Marine Drive",
+            "avgSeats": 46.5
+        },
+        {
+            "rooms_address": "6270 University Boulevard",
+            "avgSeats": 84
+        },
+        {
+            "rooms_address": "6250 Applied Science Lane",
+            "avgSeats": 48.17
+        },
+        {
+            "rooms_address": "6245 Agronomy Road V6T 1Z4",
+            "avgSeats": 88
+        },
+        {
+            "rooms_address": "6224 Agricultural Road",
+            "avgSeats": 109.67
+        },
+        {
+            "rooms_address": "6174 University Boulevard",
+            "avgSeats": 213.5
+        },
+        {
+            "rooms_address": "6108 Thunderbird Boulevard",
+            "avgSeats": 173.67
+        },
+        {
+            "rooms_address": "6081 University Blvd",
+            "avgSeats": 32.5
+        },
+        {
+            "rooms_address": "6000 Student Union Blvd",
+            "avgSeats": 299
+        },
+        {
+            "rooms_address": "6000 Iona Drive",
+            "avgSeats": 75
+        },
+        {
+            "rooms_address": "2424 Main Mall",
+            "avgSeats": 62.1
+        },
+        {
+            "rooms_address": "2405 Wesbrook Mall",
+            "avgSeats": 48.91
+        },
+        {
+            "rooms_address": "2360 East Mall V6T 1Z3",
+            "avgSeats": 118
+        },
+        {
+            "rooms_address": "2357 Main Mall",
+            "avgSeats": 30.16
+        },
+        {
+            "rooms_address": "2356 Main Mall",
+            "avgSeats": 83.83
+        },
+        {
+            "rooms_address": "2350 Health Sciences Mall",
+            "avgSeats": 275
+        },
+        {
+            "rooms_address": "2260 West Mall, V6T 1Z4",
+            "avgSeats": 426
+        },
+        {
+            "rooms_address": "2207 Main Mall",
+            "avgSeats": 193.33
+        },
+        {
+            "rooms_address": "2206 East Mall",
+            "avgSeats": 27.67
+        },
+        {
+            "rooms_address": "2205 East Mall",
+            "avgSeats": 43.83
+        },
+        {
+            "rooms_address": "2202 Main Mall",
+            "avgSeats": 144
+        },
+        {
+            "rooms_address": "2194 Health Sciences Mall",
+            "avgSeats": 81.06
+        },
+        {
+            "rooms_address": "2177 Wesbrook Mall V6T 1Z3",
+            "avgSeats": 160
+        },
+        {
+            "rooms_address": "2175 West Mall V6T 1Z4",
+            "avgSeats": 64.59
+        },
+        {
+            "rooms_address": "2125 Main Mall",
+            "avgSeats": 45.64
+        },
+        {
+            "rooms_address": "2080 West Mall",
+            "avgSeats": 28.71
+        },
+        {
+            "rooms_address": "2053 Main Mall",
+            "avgSeats": 55.21
+        },
+        {
+            "rooms_address": "2045 East Mall",
+            "avgSeats": 134.25
+        },
+        {
+            "rooms_address": "2036 Main Mall",
+            "avgSeats": 152.17
+        },
+        {
+            "rooms_address": "1986 Mathematics Road",
+            "avgSeats": 106
+        },
+        {
+            "rooms_address": "1984 West Mall",
+            "avgSeats": 77.38
+        },
+        {
+            "rooms_address": "1984 Mathematics Road",
+            "avgSeats": 61.88
+        },
+        {
+            "rooms_address": "1961 East Mall V6T 1Z1",
+            "avgSeats": 31.56
+        },
+        {
+            "rooms_address": "1924 West Mall",
+            "avgSeats": 20.5
+        },
+        {
+            "rooms_address": "1874 East Mall",
+            "avgSeats": 47
+        },
+        {
+            "rooms_address": "1866 Main Mall",
+            "avgSeats": 52.3
+        },
+        {
+            "rooms_address": "1822 East Mall",
+            "avgSeats": 45.6
+        }
+    ]
+}

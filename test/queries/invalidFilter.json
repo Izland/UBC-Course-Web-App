@@ -1,0 +1,16 @@
+{
+    "title": "invalid filter, insight error",
+    "query": {
+        "WHERE": {
+
+            "courses_avg": 97
+
+        },
+        "OPTIONS": {
+
+            "ORDER": "courses_avg"
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

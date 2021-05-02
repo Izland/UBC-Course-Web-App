@@ -1,0 +1,67 @@
+{
+    "title": "SELECT cpsc 110 where Gregor did NOT NOT teach in the year 2014, ORDER by average",
+    "query": {
+        "WHERE": {
+            "AND": [
+                {
+                    "EQ": {
+                        "courses_year": 2014
+                    }
+                },
+                {
+                    "NOT": {
+                        "NOT": {
+                            "IS": {
+                                "courses_instructor": "kiczales, gregor"
+                            }
+                        }
+                    }
+                },
+                {
+                    "IS": {
+                        "courses_dept": "cpsc"
+                    }
+                },
+                {
+                    "IS": {
+                        "courses_id": "110"
+                    }
+                }
+            ]
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_dept",
+                "courses_avg",
+                "courses_id",
+                "courses_instructor",
+                "courses_year"
+            ],
+            "ORDER": "courses_avg"
+        }
+    },
+    "isQueryValid": true,
+    "result": [
+        {
+            "courses_dept": "cpsc",
+            "courses_avg": 71.07,
+            "courses_id": "110",
+            "courses_instructor": "kiczales, gregor",
+            "courses_year": 2014
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_avg": 73.13,
+            "courses_id": "110",
+            "courses_instructor": "kiczales, gregor",
+            "courses_year": 2014
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_avg": 85.11,
+            "courses_id": "110",
+            "courses_instructor": "kiczales, gregor",
+            "courses_year": 2014
+        }
+    ]
+}

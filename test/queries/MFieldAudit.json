@@ -1,0 +1,32 @@
+{
+    "title": "SELECT title, avg WHERE audit > 20",
+    "query": {
+        "WHERE": {
+            "GT": {
+                "courses_audit": 20
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_title",
+                "courses_avg"
+            ],
+            "ORDER": "courses_avg"
+        }
+    },
+    "isQueryValid": true,
+    "result": [
+        {
+            "courses_title": "eval src evidenc",
+            "courses_avg": 86.89
+        },
+        {
+            "courses_title": "eval src evidenc",
+            "courses_avg": 88.79
+        },
+        {
+            "courses_title": "machine learn i",
+            "courses_avg": 90.53
+        }
+    ]
+}

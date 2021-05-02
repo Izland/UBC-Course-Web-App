@@ -1,0 +1,78 @@
+{
+    "title": "find max avg, group by audit",
+    "query": {
+        "WHERE": {},
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_year",
+                "countUnique"
+            ],
+            "ORDER": {
+                "dir": "DOWN",
+                "keys": [
+                    "courses_year"
+                ]
+            }
+        },
+        "TRANSFORMATIONS": {
+            "GROUP": [
+                "courses_year"
+            ],
+            "APPLY": [
+                {
+                    "countUnique": {
+                        "COUNT": "courses_fail"
+                    }
+                }
+            ]
+        }
+    },
+    "isQueryValid": true,
+    "result": [
+        {
+            "courses_year": 2016,
+            "countUnique": 33
+        },
+        {
+            "courses_year": 2015,
+            "countUnique": 49
+        },
+        {
+            "courses_year": 2014,
+            "countUnique": 42
+        },
+        {
+            "courses_year": 2013,
+            "countUnique": 47
+        },
+        {
+            "courses_year": 2012,
+            "countUnique": 46
+        },
+        {
+            "courses_year": 2011,
+            "countUnique": 45
+        },
+        {
+            "courses_year": 2010,
+            "countUnique": 47
+        },
+        {
+            "courses_year": 2009,
+            "countUnique": 49
+        },
+        {
+            "courses_year": 2008,
+            "countUnique": 43
+        },
+        {
+            "courses_year": 2007,
+            "countUnique": 40
+        },
+        {
+            "courses_year": 1900,
+            "countUnique": 171
+        }
+    ]
+}
+

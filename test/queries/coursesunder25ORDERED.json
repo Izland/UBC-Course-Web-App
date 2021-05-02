@@ -1,0 +1,56 @@
+{
+    "title": "SELECT all courses with averages below 25, ORDER by dept",
+    "query": {
+        "WHERE": {
+            "LT": {
+                "courses_avg": 25
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_dept",
+                "courses_avg",
+                "courses_id"
+            ],
+            "ORDER": "courses_dept"
+        }
+    },
+    "isQueryValid": true,
+    "result": [
+        {
+            "courses_dept": "busi",
+            "courses_avg": 4,
+            "courses_id": "330"
+        },
+        {
+            "courses_dept": "busi",
+            "courses_avg": 4,
+            "courses_id": "330"
+        },
+        {
+            "courses_dept": "fopr",
+            "courses_avg": 4.5,
+            "courses_id": "362"
+        },
+        {
+            "courses_dept": "frst",
+            "courses_avg": 0,
+            "courses_id": "202"
+        },
+        {
+            "courses_dept": "lfs",
+            "courses_avg": 0,
+            "courses_id": "100"
+        },
+        {
+            "courses_dept": "lfs",
+            "courses_avg": 0,
+            "courses_id": "100"
+        },
+        {
+            "courses_dept": "wood",
+            "courses_avg": 1,
+            "courses_id": "475"
+        }
+    ]
+}

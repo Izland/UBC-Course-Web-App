@@ -1,0 +1,58 @@
+{
+    "title": "SELECT all cpsc courses with average above 97 and math courses with average above 98, ORDER by average",
+    "query": {
+        "WHERE": {
+            "OR": [
+                {
+                    "AND": [
+                        {
+                            "GT": {
+                                "courses_avg": 97
+                            }
+                        },
+                        {
+                            "IS": {
+                                "courses_dept": "cpsc"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "AND": [
+                        {
+                            "GT": {
+                                "courses_avg": 98
+                            }
+                        },
+                        {
+                            "IS": {
+                                "courses_dept": "math"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_dept",
+                "courses_id",
+                "courses_avg"
+            ],
+            "ORDER": "courses_avg"
+        }
+    },
+    "isQueryValid": true,
+    "result": [
+        {
+            "courses_dept": "math",
+            "courses_id": "527",
+            "courses_avg": 99.78
+        },
+        {
+            "courses_dept": "math",
+            "courses_id": "527",
+            "courses_avg": 99.78
+        }
+    ]
+}

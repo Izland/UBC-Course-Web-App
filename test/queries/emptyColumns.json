@@ -1,0 +1,17 @@
+{
+    "title": "empty column, insight error",
+    "query": {
+        "WHERE": {
+            "IS": {
+                "courses_uuid": 97
+            }
+        },
+
+        "COLUMNS": [
+
+        ],
+        "ORDER": "courses_avg"
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

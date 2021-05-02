@@ -1,0 +1,19 @@
+{
+    "title": "SELECT title, instructor WHERE instructor IS palacios, carolina",
+    "query": {
+        "WHERE": {
+            "IS": {
+                "courses_uuid": "36029"
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_title",
+                "courses_instructor"
+            ],
+            "ORDER": "courses_instructor"
+        }
+    },
+    "isQueryValid": true,
+    "result":[{"courses_title":"adul educ","courses_instructor":""}]
+}

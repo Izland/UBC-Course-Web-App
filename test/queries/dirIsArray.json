@@ -1,0 +1,53 @@
+{
+    "title": "find max avg, group by audit",
+    "query": {
+        "WHERE": {},
+        "OPTIONS": {
+            "COLUMNS": [
+                "rooms_address",
+                "rooms_furniture",
+                "rooms_href",
+                "rooms_lat",
+                "rooms_lon",
+                "rooms_seats",
+                "minLon",
+                "rooms_fullname",
+                "rooms_shortname",
+                "rooms_number",
+                "rooms_name",
+                "rooms_type"
+            ],
+            "ORDER": {
+                "dir": ["DOWN"],
+                "keys": [
+                    "rooms_address",
+                    "minLon"
+                ]
+            }
+        },
+        "TRANSFORMATIONS": {
+            "GROUP": [
+                "rooms_address",
+                "rooms_furniture",
+                "rooms_href",
+                "rooms_lat",
+                "rooms_lon",
+                "rooms_seats",
+                "rooms_fullname",
+                "rooms_shortname",
+                "rooms_number",
+                "rooms_name",
+                "rooms_type"
+            ],
+            "APPLY": [
+                {
+                    "minLon": {
+                        "MIN": "rooms_lon"
+                    }
+                }
+            ]
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

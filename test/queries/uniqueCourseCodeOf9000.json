@@ -1,0 +1,26 @@
+{
+    "title": "SELECT course with unique code of 90000",
+    "query": {
+        "WHERE": {
+            "IS": {
+                "courses_uuid": "90000"
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_dept",
+                "courses_avg",
+                "courses_uuid"
+            ],
+            "ORDER": "courses_avg"
+        }
+    },
+    "isQueryValid": true,
+    "result": [
+        {
+            "courses_dept": "math",
+            "courses_avg": 64.09,
+            "courses_uuid": "90000"
+        }
+    ]
+}

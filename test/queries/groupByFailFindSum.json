@@ -1,0 +1,723 @@
+{
+    "title": "find max avg, group by audit",
+    "query": {
+        "WHERE": {},
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_fail",
+                "sum"
+            ]
+        },
+        "TRANSFORMATIONS": {
+            "GROUP": [
+                "courses_fail"
+            ],
+            "APPLY": [
+                {
+                    "sum": {
+                        "SUM": "courses_fail"
+                    }
+                }
+            ]
+        }
+    },
+    "isQueryValid": true,
+    "result": [
+        {
+            "courses_fail": 0,
+            "sum": 0
+        },
+        {
+            "courses_fail": 1,
+            "sum": 8205
+        },
+        {
+            "courses_fail": 2,
+            "sum": 7858
+        },
+        {
+            "courses_fail": 3,
+            "sum": 7284
+        },
+        {
+            "courses_fail": 4,
+            "sum": 6696
+        },
+        {
+            "courses_fail": 5,
+            "sum": 6150
+        },
+        {
+            "courses_fail": 6,
+            "sum": 5820
+        },
+        {
+            "courses_fail": 7,
+            "sum": 5852
+        },
+        {
+            "courses_fail": 8,
+            "sum": 5136
+        },
+        {
+            "courses_fail": 9,
+            "sum": 4734
+        },
+        {
+            "courses_fail": 10,
+            "sum": 4120
+        },
+        {
+            "courses_fail": 11,
+            "sum": 4521
+        },
+        {
+            "courses_fail": 12,
+            "sum": 4128
+        },
+        {
+            "courses_fail": 13,
+            "sum": 3289
+        },
+        {
+            "courses_fail": 14,
+            "sum": 3640
+        },
+        {
+            "courses_fail": 15,
+            "sum": 3345
+        },
+        {
+            "courses_fail": 16,
+            "sum": 3184
+        },
+        {
+            "courses_fail": 17,
+            "sum": 2788
+        },
+        {
+            "courses_fail": 18,
+            "sum": 2718
+        },
+        {
+            "courses_fail": 19,
+            "sum": 2527
+        },
+        {
+            "courses_fail": 20,
+            "sum": 2880
+        },
+        {
+            "courses_fail": 21,
+            "sum": 2646
+        },
+        {
+            "courses_fail": 22,
+            "sum": 2376
+        },
+        {
+            "courses_fail": 23,
+            "sum": 2001
+        },
+        {
+            "courses_fail": 24,
+            "sum": 2064
+        },
+        {
+            "courses_fail": 25,
+            "sum": 1550
+        },
+        {
+            "courses_fail": 26,
+            "sum": 1456
+        },
+        {
+            "courses_fail": 27,
+            "sum": 1566
+        },
+        {
+            "courses_fail": 28,
+            "sum": 1316
+        },
+        {
+            "courses_fail": 29,
+            "sum": 1276
+        },
+        {
+            "courses_fail": 30,
+            "sum": 1470
+        },
+        {
+            "courses_fail": 31,
+            "sum": 1395
+        },
+        {
+            "courses_fail": 32,
+            "sum": 1152
+        },
+        {
+            "courses_fail": 33,
+            "sum": 1254
+        },
+        {
+            "courses_fail": 34,
+            "sum": 1054
+        },
+        {
+            "courses_fail": 35,
+            "sum": 1330
+        },
+        {
+            "courses_fail": 36,
+            "sum": 900
+        },
+        {
+            "courses_fail": 37,
+            "sum": 962
+        },
+        {
+            "courses_fail": 38,
+            "sum": 760
+        },
+        {
+            "courses_fail": 39,
+            "sum": 741
+        },
+        {
+            "courses_fail": 40,
+            "sum": 720
+        },
+        {
+            "courses_fail": 41,
+            "sum": 533
+        },
+        {
+            "courses_fail": 42,
+            "sum": 672
+        },
+        {
+            "courses_fail": 43,
+            "sum": 731
+        },
+        {
+            "courses_fail": 44,
+            "sum": 660
+        },
+        {
+            "courses_fail": 45,
+            "sum": 405
+        },
+        {
+            "courses_fail": 46,
+            "sum": 506
+        },
+        {
+            "courses_fail": 47,
+            "sum": 846
+        },
+        {
+            "courses_fail": 48,
+            "sum": 720
+        },
+        {
+            "courses_fail": 49,
+            "sum": 539
+        },
+        {
+            "courses_fail": 50,
+            "sum": 500
+        },
+        {
+            "courses_fail": 51,
+            "sum": 459
+        },
+        {
+            "courses_fail": 52,
+            "sum": 728
+        },
+        {
+            "courses_fail": 53,
+            "sum": 318
+        },
+        {
+            "courses_fail": 54,
+            "sum": 216
+        },
+        {
+            "courses_fail": 55,
+            "sum": 385
+        },
+        {
+            "courses_fail": 56,
+            "sum": 728
+        },
+        {
+            "courses_fail": 57,
+            "sum": 342
+        },
+        {
+            "courses_fail": 58,
+            "sum": 406
+        },
+        {
+            "courses_fail": 59,
+            "sum": 472
+        },
+        {
+            "courses_fail": 60,
+            "sum": 480
+        },
+        {
+            "courses_fail": 61,
+            "sum": 366
+        },
+        {
+            "courses_fail": 62,
+            "sum": 434
+        },
+        {
+            "courses_fail": 63,
+            "sum": 315
+        },
+        {
+            "courses_fail": 64,
+            "sum": 320
+        },
+        {
+            "courses_fail": 65,
+            "sum": 260
+        },
+        {
+            "courses_fail": 66,
+            "sum": 264
+        },
+        {
+            "courses_fail": 67,
+            "sum": 402
+        },
+        {
+            "courses_fail": 68,
+            "sum": 204
+        },
+        {
+            "courses_fail": 69,
+            "sum": 276
+        },
+        {
+            "courses_fail": 70,
+            "sum": 210
+        },
+        {
+            "courses_fail": 71,
+            "sum": 142
+        },
+        {
+            "courses_fail": 72,
+            "sum": 288
+        },
+        {
+            "courses_fail": 73,
+            "sum": 365
+        },
+        {
+            "courses_fail": 74,
+            "sum": 74
+        },
+        {
+            "courses_fail": 75,
+            "sum": 300
+        },
+        {
+            "courses_fail": 76,
+            "sum": 76
+        },
+        {
+            "courses_fail": 77,
+            "sum": 77
+        },
+        {
+            "courses_fail": 78,
+            "sum": 468
+        },
+        {
+            "courses_fail": 79,
+            "sum": 158
+        },
+        {
+            "courses_fail": 80,
+            "sum": 240
+        },
+        {
+            "courses_fail": 81,
+            "sum": 648
+        },
+        {
+            "courses_fail": 82,
+            "sum": 246
+        },
+        {
+            "courses_fail": 83,
+            "sum": 249
+        },
+        {
+            "courses_fail": 84,
+            "sum": 420
+        },
+        {
+            "courses_fail": 85,
+            "sum": 255
+        },
+        {
+            "courses_fail": 86,
+            "sum": 258
+        },
+        {
+            "courses_fail": 87,
+            "sum": 261
+        },
+        {
+            "courses_fail": 88,
+            "sum": 88
+        },
+        {
+            "courses_fail": 90,
+            "sum": 270
+        },
+        {
+            "courses_fail": 91,
+            "sum": 364
+        },
+        {
+            "courses_fail": 93,
+            "sum": 186
+        },
+        {
+            "courses_fail": 94,
+            "sum": 188
+        },
+        {
+            "courses_fail": 95,
+            "sum": 380
+        },
+        {
+            "courses_fail": 96,
+            "sum": 384
+        },
+        {
+            "courses_fail": 97,
+            "sum": 291
+        },
+        {
+            "courses_fail": 98,
+            "sum": 294
+        },
+        {
+            "courses_fail": 99,
+            "sum": 297
+        },
+        {
+            "courses_fail": 100,
+            "sum": 500
+        },
+        {
+            "courses_fail": 101,
+            "sum": 101
+        },
+        {
+            "courses_fail": 102,
+            "sum": 306
+        },
+        {
+            "courses_fail": 103,
+            "sum": 103
+        },
+        {
+            "courses_fail": 106,
+            "sum": 212
+        },
+        {
+            "courses_fail": 107,
+            "sum": 642
+        },
+        {
+            "courses_fail": 108,
+            "sum": 216
+        },
+        {
+            "courses_fail": 109,
+            "sum": 109
+        },
+        {
+            "courses_fail": 110,
+            "sum": 330
+        },
+        {
+            "courses_fail": 111,
+            "sum": 222
+        },
+        {
+            "courses_fail": 112,
+            "sum": 336
+        },
+        {
+            "courses_fail": 113,
+            "sum": 226
+        },
+        {
+            "courses_fail": 114,
+            "sum": 228
+        },
+        {
+            "courses_fail": 115,
+            "sum": 230
+        },
+        {
+            "courses_fail": 116,
+            "sum": 232
+        },
+        {
+            "courses_fail": 118,
+            "sum": 354
+        },
+        {
+            "courses_fail": 119,
+            "sum": 119
+        },
+        {
+            "courses_fail": 120,
+            "sum": 240
+        },
+        {
+            "courses_fail": 121,
+            "sum": 121
+        },
+        {
+            "courses_fail": 122,
+            "sum": 244
+        },
+        {
+            "courses_fail": 123,
+            "sum": 246
+        },
+        {
+            "courses_fail": 125,
+            "sum": 125
+        },
+        {
+            "courses_fail": 126,
+            "sum": 126
+        },
+        {
+            "courses_fail": 128,
+            "sum": 128
+        },
+        {
+            "courses_fail": 129,
+            "sum": 129
+        },
+        {
+            "courses_fail": 131,
+            "sum": 131
+        },
+        {
+            "courses_fail": 132,
+            "sum": 132
+        },
+        {
+            "courses_fail": 133,
+            "sum": 133
+        },
+        {
+            "courses_fail": 134,
+            "sum": 134
+        },
+        {
+            "courses_fail": 135,
+            "sum": 540
+        },
+        {
+            "courses_fail": 136,
+            "sum": 136
+        },
+        {
+            "courses_fail": 137,
+            "sum": 137
+        },
+        {
+            "courses_fail": 141,
+            "sum": 141
+        },
+        {
+            "courses_fail": 142,
+            "sum": 426
+        },
+        {
+            "courses_fail": 143,
+            "sum": 143
+        },
+        {
+            "courses_fail": 144,
+            "sum": 144
+        },
+        {
+            "courses_fail": 145,
+            "sum": 435
+        },
+        {
+            "courses_fail": 146,
+            "sum": 146
+        },
+        {
+            "courses_fail": 147,
+            "sum": 441
+        },
+        {
+            "courses_fail": 149,
+            "sum": 149
+        },
+        {
+            "courses_fail": 150,
+            "sum": 300
+        },
+        {
+            "courses_fail": 157,
+            "sum": 314
+        },
+        {
+            "courses_fail": 162,
+            "sum": 486
+        },
+        {
+            "courses_fail": 166,
+            "sum": 166
+        },
+        {
+            "courses_fail": 168,
+            "sum": 168
+        },
+        {
+            "courses_fail": 169,
+            "sum": 169
+        },
+        {
+            "courses_fail": 170,
+            "sum": 170
+        },
+        {
+            "courses_fail": 171,
+            "sum": 342
+        },
+        {
+            "courses_fail": 172,
+            "sum": 344
+        },
+        {
+            "courses_fail": 175,
+            "sum": 350
+        },
+        {
+            "courses_fail": 177,
+            "sum": 177
+        },
+        {
+            "courses_fail": 180,
+            "sum": 180
+        },
+        {
+            "courses_fail": 181,
+            "sum": 181
+        },
+        {
+            "courses_fail": 184,
+            "sum": 184
+        },
+        {
+            "courses_fail": 186,
+            "sum": 372
+        },
+        {
+            "courses_fail": 187,
+            "sum": 374
+        },
+        {
+            "courses_fail": 188,
+            "sum": 188
+        },
+        {
+            "courses_fail": 190,
+            "sum": 760
+        },
+        {
+            "courses_fail": 192,
+            "sum": 192
+        },
+        {
+            "courses_fail": 193,
+            "sum": 193
+        },
+        {
+            "courses_fail": 196,
+            "sum": 196
+        },
+        {
+            "courses_fail": 203,
+            "sum": 203
+        },
+        {
+            "courses_fail": 204,
+            "sum": 204
+        },
+        {
+            "courses_fail": 205,
+            "sum": 205
+        },
+        {
+            "courses_fail": 213,
+            "sum": 213
+        },
+        {
+            "courses_fail": 221,
+            "sum": 221
+        },
+        {
+            "courses_fail": 222,
+            "sum": 222
+        },
+        {
+            "courses_fail": 226,
+            "sum": 226
+        },
+        {
+            "courses_fail": 230,
+            "sum": 230
+        },
+        {
+            "courses_fail": 235,
+            "sum": 235
+        },
+        {
+            "courses_fail": 250,
+            "sum": 250
+        },
+        {
+            "courses_fail": 251,
+            "sum": 251
+        },
+        {
+            "courses_fail": 260,
+            "sum": 260
+        },
+        {
+            "courses_fail": 264,
+            "sum": 264
+        },
+        {
+            "courses_fail": 266,
+            "sum": 266
+        },
+        {
+            "courses_fail": 287,
+            "sum": 287
+        }
+    ]
+}

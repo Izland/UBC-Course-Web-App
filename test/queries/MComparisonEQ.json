@@ -1,0 +1,36 @@
+{
+    "title": "SELECT pass WHERE avg == 58",
+    "query": {
+        "WHERE": {
+            "EQ": {
+                "courses_avg": 58
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_title",
+                "courses_avg"
+            ],
+            "ORDER": "courses_avg"
+        }
+    },
+    "isQueryValid": true,
+    "result": [
+        {
+            "courses_title": "iss first ntns",
+            "courses_avg": 58
+        },
+        {
+            "courses_title": "physics lab tech",
+            "courses_avg": 58
+        },
+        {
+            "courses_title": "physics lab tech",
+            "courses_avg": 58
+        },
+        {
+            "courses_title": "prin frst econ",
+            "courses_avg": 58
+        }
+    ]
+}

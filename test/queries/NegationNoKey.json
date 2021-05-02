@@ -1,0 +1,11 @@
+{
+    "title": "Very invalid query",
+    "query": {
+        "WHERE": {
+            "NOT": {}
+        },
+        "OPTIONS": {}
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

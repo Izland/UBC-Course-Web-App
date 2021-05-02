@@ -1,0 +1,9 @@
+{
+    "title": "SELECT avg WHERE &",
+    "query": {
+        "WHERE": {"AND" : [1] },
+        "OPTIONS": { "COLUMNS": ["courses_avg"]}
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

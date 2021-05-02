@@ -1,0 +1,8 @@
+{
+    "title": "Body with no options query",
+    "query": {
+        "WHERE": {}
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

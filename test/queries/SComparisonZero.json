@@ -1,0 +1,17 @@
+{
+    "title": "SELECT title, avg WHERE IS",
+    "query": {
+        "WHERE": {
+            "IS": {}
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_title",
+                "courses_avg"
+            ],
+            "ORDER": "courses_avg"
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

@@ -1,0 +1,115 @@
+{
+    "title": "find max avg, group by audit",
+    "query": {
+        "WHERE": {},
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_audit",
+                "maxAvg"
+            ]
+        },
+        "TRANSFORMATIONS": {
+            "GROUP": [
+                "courses_audit"
+            ],
+            "APPLY": [
+                {
+                    "maxAvg": {
+                        "MAX": "courses_avg"
+                    }
+                }
+            ]
+        }
+    },
+    "isQueryValid": true,
+    "result": [
+        {
+            "courses_audit": 0,
+            "maxAvg": 99.78
+        },
+        {
+            "courses_audit": 1,
+            "maxAvg": 97.25
+        },
+        {
+            "courses_audit": 2,
+            "maxAvg": 95
+        },
+        {
+            "courses_audit": 3,
+            "maxAvg": 93.7
+        },
+        {
+            "courses_audit": 4,
+            "maxAvg": 95
+        },
+        {
+            "courses_audit": 5,
+            "maxAvg": 94.17
+        },
+        {
+            "courses_audit": 6,
+            "maxAvg": 94
+        },
+        {
+            "courses_audit": 7,
+            "maxAvg": 91
+        },
+        {
+            "courses_audit": 8,
+            "maxAvg": 90.8
+        },
+        {
+            "courses_audit": 9,
+            "maxAvg": 95
+        },
+        {
+            "courses_audit": 10,
+            "maxAvg": 91.4
+        },
+        {
+            "courses_audit": 11,
+            "maxAvg": 84.5
+        },
+        {
+            "courses_audit": 12,
+            "maxAvg": 88.25
+        },
+        {
+            "courses_audit": 13,
+            "maxAvg": 86.19
+        },
+        {
+            "courses_audit": 14,
+            "maxAvg": 82.56
+        },
+        {
+            "courses_audit": 15,
+            "maxAvg": 88.2
+        },
+        {
+            "courses_audit": 17,
+            "maxAvg": 88
+        },
+        {
+            "courses_audit": 18,
+            "maxAvg": 90.53
+        },
+        {
+            "courses_audit": 19,
+            "maxAvg": 87
+        },
+        {
+            "courses_audit": 20,
+            "maxAvg": 87.26
+        },
+        {
+            "courses_audit": 21,
+            "maxAvg": 90.53
+        },
+        {
+            "courses_audit": 23,
+            "maxAvg": 88.79
+        }
+    ]
+}

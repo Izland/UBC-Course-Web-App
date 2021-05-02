@@ -1,0 +1,20 @@
+{
+    "title": "invalid filter, insight error",
+    "query": {
+        "WHERE": {},
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_year",
+                "countUnique"
+            ],
+            "ORDER": {
+                "dir": "DOWN",
+                "keys": [
+                    "countUnique"
+                ]
+            }
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

@@ -1,0 +1,60 @@
+{
+    "title": "SELECT cpsc 121 where more than 25 people failed the class, ORDERED by failing students",
+    "query": {
+        "WHERE": {
+            "AND": [
+                {
+                    "IS": {
+                        "courses_dept": "cpsc"
+                    }
+                },
+                {
+                    "IS": {
+                        "courses_id": "121"
+                    }
+                },
+                {
+                    "GT": {
+                        "courses_fail": 25
+                    }
+                }
+            ]
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_dept",
+                "courses_avg",
+                "courses_fail",
+                "courses_pass"
+            ],
+            "ORDER": "courses_fail"
+        }
+    },
+    "isQueryValid": true,
+    "result": [
+        {
+            "courses_dept": "cpsc",
+            "courses_avg": 70.62,
+            "courses_fail": 29,
+            "courses_pass": 222
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_avg": 76.71,
+            "courses_fail": 34,
+            "courses_pass": 571
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_avg": 75.48,
+            "courses_fail": 42,
+            "courses_pass": 455
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_avg": 76.17,
+            "courses_fail": 52,
+            "courses_pass": 701
+        }
+    ]
+}

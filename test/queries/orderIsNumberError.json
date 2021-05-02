@@ -1,0 +1,19 @@
+{
+    "title": "put number in order, throw InsightError",
+    "query": {
+        "WHERE": {
+            "GT": {
+                "courses_avg": 97
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_dept",
+                "courses_avg"
+            ],
+            "ORDER": 2
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

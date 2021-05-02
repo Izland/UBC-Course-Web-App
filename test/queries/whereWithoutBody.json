@@ -1,0 +1,18 @@
+{
+    "title": "too big, no body so all courses are returned",
+    "query": {
+        "WHERE": {
+
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_dept",
+                "courses_id",
+                "courses_avg"
+            ],
+            "ORDER": "courses_avg"
+        }
+    },
+    "isQueryValid": false,
+    "result": "ResultTooLargeError"
+}

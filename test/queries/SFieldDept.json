@@ -1,0 +1,948 @@
+{
+    "title": "SELECT title, instructor WHERE dept IS adhe",
+    "query": {
+        "WHERE": {
+            "IS": {
+                "courses_dept": "adhe"
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_title",
+                "courses_instructor"
+            ],
+            "ORDER": "courses_instructor"
+        }
+    },
+    "isQueryValid": true,
+    "result": [
+        {
+            "courses_title": "adul educ",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "adul educ",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "adul educ",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "adul educ",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "adul educ",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "adul educ",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "adul educ",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "adul educ",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "adul educ",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "adul educ",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "adul educ",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "adul educ",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "adul educ",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "adul educ",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "adul educ",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "adul educ",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "adul educ",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "com adult educ",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "com adult educ",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "com adult educ",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "com adult educ",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "com adult educ",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "com adult educ",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "com adult educ",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "com adult educ",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "com adult educ",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "com adult educ",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "com adult educ",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "com adult educ",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "com adult educ",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "com adult educ",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "com adult educ",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "com adult educ",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "com adult educ",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "com adult educ",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "dev wkshp/sem",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "dev wkshp/sem",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "dev wkshp/sem",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "dev wkshp/sem",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "dev wkshp/sem",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "dev wkshp/sem",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "dev wkshp/sem",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "dev wkshp/sem",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "dev wkshp/sem",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "dev wkshp/sem",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "dev wkshp/sem",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "dev wkshp/sem",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "dev wkshp/sem",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "dev wkshp/sem",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "dev wkshp/sem",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "dev wkshp/sem",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "dev wkshp/sem",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "dev wkshp/sem",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "dev wkshp/sem",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "inst adul educ",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "inst adul educ",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "inst adul educ",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "teach adult",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "teach adult",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "teach adult",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "teach adult",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "teach adult",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "teach adult",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "teach adult",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "teach adult",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "teach adult",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "teach adult",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "teach adult",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "teach adult",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "teach adult",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "teach adult",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "teach adult",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "teach adult",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "teach adult",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "teach adult",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "dev wkshp/sem",
+            "courses_instructor": "aijazi, omer"
+        },
+        {
+            "courses_title": "com adult educ",
+            "courses_instructor": "bishundayal, deonarine"
+        },
+        {
+            "courses_title": "com adult educ",
+            "courses_instructor": "bishundayal, deonarine"
+        },
+        {
+            "courses_title": "com adult educ",
+            "courses_instructor": "bishundayal, deonarine"
+        },
+        {
+            "courses_title": "com adult educ",
+            "courses_instructor": "bishundayal, deonarine"
+        },
+        {
+            "courses_title": "com adult educ",
+            "courses_instructor": "bishundayal, deonarine"
+        },
+        {
+            "courses_title": "com adult educ",
+            "courses_instructor": "bishundayal, deonarine"
+        },
+        {
+            "courses_title": "com adult educ",
+            "courses_instructor": "bishundayal, deonarine"
+        },
+        {
+            "courses_title": "com adult educ",
+            "courses_instructor": "bishundayal, deonarine"
+        },
+        {
+            "courses_title": "com adult educ",
+            "courses_instructor": "bishundayal, deonarine"
+        },
+        {
+            "courses_title": "com adult educ",
+            "courses_instructor": "bishundayal, deonarine"
+        },
+        {
+            "courses_title": "com adult educ",
+            "courses_instructor": "bishundayal, deonarine"
+        },
+        {
+            "courses_title": "com adult educ",
+            "courses_instructor": "bishundayal, deonarine"
+        },
+        {
+            "courses_title": "com adult educ",
+            "courses_instructor": "bishundayal, deonarine"
+        },
+        {
+            "courses_title": "com adult educ",
+            "courses_instructor": "bishundayal, deonarine"
+        },
+        {
+            "courses_title": "com adult educ",
+            "courses_instructor": "bishundayal, deonarine"
+        },
+        {
+            "courses_title": "com adult educ",
+            "courses_instructor": "bishundayal, deonarine"
+        },
+        {
+            "courses_title": "com adult educ",
+            "courses_instructor": "bishundayal, deonarine"
+        },
+        {
+            "courses_title": "com adult educ",
+            "courses_instructor": "bishundayal, deonarine"
+        },
+        {
+            "courses_title": "com adult educ",
+            "courses_instructor": "bishundayal, deonarine"
+        },
+        {
+            "courses_title": "com adult educ",
+            "courses_instructor": "bishundayal, deonarine"
+        },
+        {
+            "courses_title": "com adult educ",
+            "courses_instructor": "bishundayal, deonarine"
+        },
+        {
+            "courses_title": "com adult educ",
+            "courses_instructor": "bishundayal, deonarine"
+        },
+        {
+            "courses_title": "com adult educ",
+            "courses_instructor": "bishundayal, deonarine"
+        },
+        {
+            "courses_title": "com adult educ",
+            "courses_instructor": "bishundayal, deonarine"
+        },
+        {
+            "courses_title": "com adult educ",
+            "courses_instructor": "bishundayal, deonarine"
+        },
+        {
+            "courses_title": "com adult educ",
+            "courses_instructor": "bishundayal, deonarine"
+        },
+        {
+            "courses_title": "com adult educ",
+            "courses_instructor": "bishundayal, deonarine"
+        },
+        {
+            "courses_title": "com adult educ",
+            "courses_instructor": "bishundayal, deonarine"
+        },
+        {
+            "courses_title": "com adult educ",
+            "courses_instructor": "bishundayal, deonarine"
+        },
+        {
+            "courses_title": "com adult educ",
+            "courses_instructor": "bishundayal, deonarine"
+        },
+        {
+            "courses_title": "com adult educ",
+            "courses_instructor": "bishundayal, deonarine"
+        },
+        {
+            "courses_title": "com adult educ",
+            "courses_instructor": "bishundayal, deonarine"
+        },
+        {
+            "courses_title": "com adult educ",
+            "courses_instructor": "bishundayal, deonarine"
+        },
+        {
+            "courses_title": "com adult educ",
+            "courses_instructor": "bishundayal, deonarine"
+        },
+        {
+            "courses_title": "com adult educ",
+            "courses_instructor": "bishundayal, deonarine"
+        },
+        {
+            "courses_title": "com adult educ",
+            "courses_instructor": "bishundayal, deonarine"
+        },
+        {
+            "courses_title": "com adult educ",
+            "courses_instructor": "bishundayal, deonarine"
+        },
+        {
+            "courses_title": "com adult educ",
+            "courses_instructor": "bishundayal, deonarine"
+        },
+        {
+            "courses_title": "com adult educ",
+            "courses_instructor": "bishundayal, deonarine"
+        },
+        {
+            "courses_title": "com adult educ",
+            "courses_instructor": "bishundayal, deonarine"
+        },
+        {
+            "courses_title": "dev wkshp/sem",
+            "courses_instructor": "bishundayal, deonarine"
+        },
+        {
+            "courses_title": "dev wkshp/sem",
+            "courses_instructor": "bishundayal, deonarine"
+        },
+        {
+            "courses_title": "dev wkshp/sem",
+            "courses_instructor": "bishundayal, deonarine"
+        },
+        {
+            "courses_title": "dev wkshp/sem",
+            "courses_instructor": "bishundayal, deonarine"
+        },
+        {
+            "courses_title": "dev wkshp/sem",
+            "courses_instructor": "bishundayal, deonarine"
+        },
+        {
+            "courses_title": "dev wkshp/sem",
+            "courses_instructor": "bishundayal, deonarine"
+        },
+        {
+            "courses_title": "dev wkshp/sem",
+            "courses_instructor": "bishundayal, deonarine"
+        },
+        {
+            "courses_title": "com adult educ",
+            "courses_instructor": "butterwick, shauna;jubas, kaela"
+        },
+        {
+            "courses_title": "com adult educ",
+            "courses_instructor": "butterwick, shauna;jubas, kaela"
+        },
+        {
+            "courses_title": "inst adul educ",
+            "courses_instructor": "chan, jennifer"
+        },
+        {
+            "courses_title": "inst adul educ",
+            "courses_instructor": "chan, jennifer"
+        },
+        {
+            "courses_title": "teach adult",
+            "courses_instructor": "crisfield, erin"
+        },
+        {
+            "courses_title": "teach adult",
+            "courses_instructor": "crisfield, erin"
+        },
+        {
+            "courses_title": "teach adult",
+            "courses_instructor": "crisfield, erin"
+        },
+        {
+            "courses_title": "teach adult",
+            "courses_instructor": "crisfield, erin"
+        },
+        {
+            "courses_title": "teach adult",
+            "courses_instructor": "crisfield, erin"
+        },
+        {
+            "courses_title": "teach adult",
+            "courses_instructor": "crisfield, erin"
+        },
+        {
+            "courses_title": "teach adult",
+            "courses_instructor": "crisfield, erin"
+        },
+        {
+            "courses_title": "inst adul educ",
+            "courses_instructor": "elfert, maren"
+        },
+        {
+            "courses_title": "adul educ",
+            "courses_instructor": "falk, clifford"
+        },
+        {
+            "courses_title": "adul educ",
+            "courses_instructor": "falk, clifford"
+        },
+        {
+            "courses_title": "adul educ",
+            "courses_instructor": "falk, clifford"
+        },
+        {
+            "courses_title": "adul educ",
+            "courses_instructor": "falk, clifford"
+        },
+        {
+            "courses_title": "adul educ",
+            "courses_instructor": "falk, clifford"
+        },
+        {
+            "courses_title": "adul educ",
+            "courses_instructor": "falk, clifford"
+        },
+        {
+            "courses_title": "adul educ",
+            "courses_instructor": "falk, clifford"
+        },
+        {
+            "courses_title": "adul educ",
+            "courses_instructor": "falk, clifford"
+        },
+        {
+            "courses_title": "adul educ",
+            "courses_instructor": "palacios, carolina"
+        },
+        {
+            "courses_title": "adul educ",
+            "courses_instructor": "palacios, carolina"
+        },
+        {
+            "courses_title": "adul educ",
+            "courses_instructor": "palacios, carolina"
+        },
+        {
+            "courses_title": "adul educ",
+            "courses_instructor": "palacios, carolina"
+        },
+        {
+            "courses_title": "adul educ",
+            "courses_instructor": "palacios, carolina"
+        },
+        {
+            "courses_title": "adul educ",
+            "courses_instructor": "palacios, carolina"
+        },
+        {
+            "courses_title": "adul educ",
+            "courses_instructor": "palacios, carolina"
+        },
+        {
+            "courses_title": "adul educ",
+            "courses_instructor": "palacios, carolina"
+        },
+        {
+            "courses_title": "adul educ",
+            "courses_instructor": "palacios, carolina"
+        },
+        {
+            "courses_title": "adul educ",
+            "courses_instructor": "palacios, carolina"
+        },
+        {
+            "courses_title": "adul educ",
+            "courses_instructor": "palacios, carolina"
+        },
+        {
+            "courses_title": "adul educ",
+            "courses_instructor": "palacios, carolina"
+        },
+        {
+            "courses_title": "adul educ",
+            "courses_instructor": "palacios, carolina"
+        },
+        {
+            "courses_title": "adul educ",
+            "courses_instructor": "palacios, carolina"
+        },
+        {
+            "courses_title": "adul educ",
+            "courses_instructor": "palacios, carolina"
+        },
+        {
+            "courses_title": "adul educ",
+            "courses_instructor": "palacios, carolina"
+        },
+        {
+            "courses_title": "adul educ",
+            "courses_instructor": "palacios, carolina"
+        },
+        {
+            "courses_title": "adul educ",
+            "courses_instructor": "palacios, carolina"
+        },
+        {
+            "courses_title": "adul educ",
+            "courses_instructor": "palacios, carolina"
+        },
+        {
+            "courses_title": "adul educ",
+            "courses_instructor": "palacios, carolina"
+        },
+        {
+            "courses_title": "dev wkshp/sem",
+            "courses_instructor": "palacios, carolina"
+        },
+        {
+            "courses_title": "dev wkshp/sem",
+            "courses_instructor": "palacios, carolina"
+        },
+        {
+            "courses_title": "dev wkshp/sem",
+            "courses_instructor": "palacios, carolina"
+        },
+        {
+            "courses_title": "dev wkshp/sem",
+            "courses_instructor": "palacios, carolina"
+        },
+        {
+            "courses_title": "dev wkshp/sem",
+            "courses_instructor": "palacios, carolina"
+        },
+        {
+            "courses_title": "dev wkshp/sem",
+            "courses_instructor": "palacios, carolina"
+        },
+        {
+            "courses_title": "dev wkshp/sem",
+            "courses_instructor": "palacios, carolina"
+        },
+        {
+            "courses_title": "dev wkshp/sem",
+            "courses_instructor": "palacios, carolina"
+        },
+        {
+            "courses_title": "teach adult",
+            "courses_instructor": "palacios, carolina"
+        },
+        {
+            "courses_title": "teach adult",
+            "courses_instructor": "palacios, carolina"
+        },
+        {
+            "courses_title": "teach adult",
+            "courses_instructor": "palacios, carolina"
+        },
+        {
+            "courses_title": "teach adult",
+            "courses_instructor": "palacios, carolina"
+        },
+        {
+            "courses_title": "teach adult",
+            "courses_instructor": "palacios, carolina"
+        },
+        {
+            "courses_title": "dev wkshp/sem",
+            "courses_instructor": "palacios, carolina;sork, thomas joda"
+        },
+        {
+            "courses_title": "teach adult",
+            "courses_instructor": "regmi, kapil"
+        },
+        {
+            "courses_title": "teach adult",
+            "courses_instructor": "regmi, kapil"
+        },
+        {
+            "courses_title": "teach adult",
+            "courses_instructor": "regmi, kapil"
+        },
+        {
+            "courses_title": "dev wkshp/sem",
+            "courses_instructor": "smulders, dave"
+        },
+        {
+            "courses_title": "dev wkshp/sem",
+            "courses_instructor": "smulders, dave"
+        },
+        {
+            "courses_title": "dev wkshp/sem",
+            "courses_instructor": "smulders, dave"
+        },
+        {
+            "courses_title": "dev wkshp/sem",
+            "courses_instructor": "smulders, dave"
+        },
+        {
+            "courses_title": "dev wkshp/sem",
+            "courses_instructor": "smulders, dave"
+        },
+        {
+            "courses_title": "dev wkshp/sem",
+            "courses_instructor": "smulders, dave"
+        },
+        {
+            "courses_title": "dev wkshp/sem",
+            "courses_instructor": "smulders, dave"
+        },
+        {
+            "courses_title": "dev wkshp/sem",
+            "courses_instructor": "smulders, dave"
+        },
+        {
+            "courses_title": "dev wkshp/sem",
+            "courses_instructor": "smulders, dave"
+        },
+        {
+            "courses_title": "dev wkshp/sem",
+            "courses_instructor": "smulders, dave"
+        },
+        {
+            "courses_title": "dev wkshp/sem",
+            "courses_instructor": "smulders, dave"
+        },
+        {
+            "courses_title": "dev wkshp/sem",
+            "courses_instructor": "smulders, dave"
+        },
+        {
+            "courses_title": "dev wkshp/sem",
+            "courses_instructor": "smulders, dave"
+        },
+        {
+            "courses_title": "dev wkshp/sem",
+            "courses_instructor": "smulders, dave"
+        },
+        {
+            "courses_title": "dev wkshp/sem",
+            "courses_instructor": "smulders, dave"
+        },
+        {
+            "courses_title": "dev wkshp/sem",
+            "courses_instructor": "smulders, dave"
+        },
+        {
+            "courses_title": "dev wkshp/sem",
+            "courses_instructor": "smulders, dave"
+        },
+        {
+            "courses_title": "dev wkshp/sem",
+            "courses_instructor": "smulders, dave"
+        },
+        {
+            "courses_title": "dev wkshp/sem",
+            "courses_instructor": "smulders, dave"
+        },
+        {
+            "courses_title": "dev wkshp/sem",
+            "courses_instructor": "smulders, dave"
+        },
+        {
+            "courses_title": "dev wkshp/sem",
+            "courses_instructor": "smulders, dave"
+        },
+        {
+            "courses_title": "teach adult",
+            "courses_instructor": "smulders, dave"
+        },
+        {
+            "courses_title": "teach adult",
+            "courses_instructor": "smulders, dave"
+        },
+        {
+            "courses_title": "teach adult",
+            "courses_instructor": "smulders, dave"
+        },
+        {
+            "courses_title": "teach adult",
+            "courses_instructor": "smulders, dave"
+        },
+        {
+            "courses_title": "teach adult",
+            "courses_instructor": "smulders, dave"
+        },
+        {
+            "courses_title": "teach adult",
+            "courses_instructor": "smulders, dave"
+        },
+        {
+            "courses_title": "teach adult",
+            "courses_instructor": "smulders, dave"
+        },
+        {
+            "courses_title": "teach adult",
+            "courses_instructor": "smulders, dave"
+        },
+        {
+            "courses_title": "teach adult",
+            "courses_instructor": "smulders, dave"
+        },
+        {
+            "courses_title": "teach adult",
+            "courses_instructor": "smulders, dave"
+        },
+        {
+            "courses_title": "teach adult",
+            "courses_instructor": "smulders, dave"
+        },
+        {
+            "courses_title": "teach adult",
+            "courses_instructor": "smulders, dave"
+        },
+        {
+            "courses_title": "teach adult",
+            "courses_instructor": "smulders, dave"
+        },
+        {
+            "courses_title": "teach adult",
+            "courses_instructor": "smulders, dave"
+        },
+        {
+            "courses_title": "teach adult",
+            "courses_instructor": "smulders, dave"
+        },
+        {
+            "courses_title": "teach adult",
+            "courses_instructor": "smulders, dave"
+        },
+        {
+            "courses_title": "teach adult",
+            "courses_instructor": "smulders, dave"
+        },
+        {
+            "courses_title": "teach adult",
+            "courses_instructor": "smulders, dave"
+        },
+        {
+            "courses_title": "adul educ",
+            "courses_instructor": "vanwynsberghe, robert"
+        },
+        {
+            "courses_title": "adul educ",
+            "courses_instructor": "vanwynsberghe, robert"
+        },
+        {
+            "courses_title": "inst adul educ",
+            "courses_instructor": "vanwynsberghe, robert"
+        },
+        {
+            "courses_title": "teach adult",
+            "courses_instructor": "walker, judith"
+        },
+        {
+            "courses_title": "teach adult",
+            "courses_instructor": "walker, judith"
+        },
+        {
+            "courses_title": "teach adult",
+            "courses_instructor": "walker, judith"
+        },
+        {
+            "courses_title": "teach adult",
+            "courses_instructor": "walker, judith"
+        },
+        {
+            "courses_title": "teach adult",
+            "courses_instructor": "walker, judith"
+        },
+        {
+            "courses_title": "teach adult",
+            "courses_instructor": "walker, judith"
+        },
+        {
+            "courses_title": "teach adult",
+            "courses_instructor": "walker, judith"
+        },
+        {
+            "courses_title": "teach adult",
+            "courses_instructor": "walker, judith"
+        },
+        {
+            "courses_title": "dev wkshp/sem",
+            "courses_instructor": "wilson, mary"
+        },
+        {
+            "courses_title": "dev wkshp/sem",
+            "courses_instructor": "wilson, mary"
+        }
+    ]
+}

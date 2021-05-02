@@ -1,0 +1,6 @@
+{
+    "title": "Excess keys",
+    "query": { "WHERE": {}, "OPTIONS": {}, "ORDER": "courses_avg"},
+    "isQueryValid": false,
+    "result": "InsightError"
+}

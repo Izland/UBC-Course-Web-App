@@ -1,0 +1,128 @@
+{
+    "title": "all courses taught by gregor, ORDER by year of course",
+    "query": {
+        "WHERE": {
+            "IS": {
+                "courses_instructor": "kiczales, gregor"
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_dept",
+                "courses_avg",
+                "courses_id",
+                "courses_instructor",
+                "courses_year"
+            ],
+            "ORDER": "courses_year"
+        }
+    },
+    "isQueryValid": true,
+    "result": [
+        {
+            "courses_dept": "cpsc",
+            "courses_avg": 72.58,
+            "courses_id": "110",
+            "courses_instructor": "kiczales, gregor",
+            "courses_year": 2009
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_avg": 71.4,
+            "courses_id": "110",
+            "courses_instructor": "kiczales, gregor",
+            "courses_year": 2009
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_avg": 76.98,
+            "courses_id": "110",
+            "courses_instructor": "kiczales, gregor",
+            "courses_year": 2010
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_avg": 70.75,
+            "courses_id": "110",
+            "courses_instructor": "kiczales, gregor",
+            "courses_year": 2010
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_avg": 77.11,
+            "courses_id": "110",
+            "courses_instructor": "kiczales, gregor",
+            "courses_year": 2011
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_avg": 73.53,
+            "courses_id": "110",
+            "courses_instructor": "kiczales, gregor",
+            "courses_year": 2011
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_avg": 77.69,
+            "courses_id": "110",
+            "courses_instructor": "kiczales, gregor",
+            "courses_year": 2011
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_avg": 74.24,
+            "courses_id": "110",
+            "courses_instructor": "kiczales, gregor",
+            "courses_year": 2012
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_avg": 77.43,
+            "courses_id": "110",
+            "courses_instructor": "kiczales, gregor",
+            "courses_year": 2012
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_avg": 70.11,
+            "courses_id": "110",
+            "courses_instructor": "kiczales, gregor",
+            "courses_year": 2013
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_avg": 85.11,
+            "courses_id": "110",
+            "courses_instructor": "kiczales, gregor",
+            "courses_year": 2014
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_avg": 73.13,
+            "courses_id": "110",
+            "courses_instructor": "kiczales, gregor",
+            "courses_year": 2014
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_avg": 71.07,
+            "courses_id": "110",
+            "courses_instructor": "kiczales, gregor",
+            "courses_year": 2014
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_avg": 84.91,
+            "courses_id": "110",
+            "courses_instructor": "kiczales, gregor",
+            "courses_year": 2015
+        },
+        {
+            "courses_dept": "cpsc",
+            "courses_avg": 70.78,
+            "courses_id": "110",
+            "courses_instructor": "kiczales, gregor",
+            "courses_year": 2015
+        }
+    ]
+}

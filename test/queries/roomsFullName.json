@@ -1,0 +1,210 @@
+{
+    "title": "find max avg, group by audit",
+    "query": {
+        "WHERE": {},
+        "OPTIONS": {
+            "COLUMNS": [
+                "rooms_fullname",
+                "countUniqueSeats"
+            ],
+            "ORDER": {
+                "dir": "UP",
+                "keys": [
+                    "rooms_fullname",
+                    "countUniqueSeats"
+                ]
+            }
+        },
+        "TRANSFORMATIONS": {
+            "GROUP": [
+                "rooms_fullname"
+            ],
+            "APPLY": [
+                {
+                    "countUniqueSeats": {
+                        "COUNT": "rooms_seats"
+                    }
+                }
+            ]
+        }
+    },
+    "isQueryValid": true,
+    "result": [
+        {
+            "rooms_fullname": "Allard Hall (LAW)",
+            "countUniqueSeats": 4
+        },
+        {
+            "rooms_fullname": "Anthropology and Sociology",
+            "countUniqueSeats": 4
+        },
+        {
+            "rooms_fullname": "Aquatic Ecosystems Research Laboratory",
+            "countUniqueSeats": 1
+        },
+        {
+            "rooms_fullname": "Auditorium Annex",
+            "countUniqueSeats": 2
+        },
+        {
+            "rooms_fullname": "Biological Sciences",
+            "countUniqueSeats": 3
+        },
+        {
+            "rooms_fullname": "Brock Hall Annex",
+            "countUniqueSeats": 2
+        },
+        {
+            "rooms_fullname": "Buchanan",
+            "countUniqueSeats": 19
+        },
+        {
+            "rooms_fullname": "Centre for Interactive  Research on Sustainability",
+            "countUniqueSeats": 1
+        },
+        {
+            "rooms_fullname": "Chemical and Biological Engineering Building",
+            "countUniqueSeats": 3
+        },
+        {
+            "rooms_fullname": "Chemistry",
+            "countUniqueSeats": 4
+        },
+        {
+            "rooms_fullname": "Civil and Mechanical Engineering",
+            "countUniqueSeats": 6
+        },
+        {
+            "rooms_fullname": "Earth Sciences Building",
+            "countUniqueSeats": 3
+        },
+        {
+            "rooms_fullname": "Earth and Ocean Sciences - Main",
+            "countUniqueSeats": 1
+        },
+        {
+            "rooms_fullname": "Food, Nutrition and Health",
+            "countUniqueSeats": 6
+        },
+        {
+            "rooms_fullname": "Forest Sciences Centre",
+            "countUniqueSeats": 7
+        },
+        {
+            "rooms_fullname": "Frank Forward",
+            "countUniqueSeats": 3
+        },
+        {
+            "rooms_fullname": "Frederic Lasserre",
+            "countUniqueSeats": 5
+        },
+        {
+            "rooms_fullname": "Friedman Building",
+            "countUniqueSeats": 1
+        },
+        {
+            "rooms_fullname": "Geography",
+            "countUniqueSeats": 7
+        },
+        {
+            "rooms_fullname": "Hebb",
+            "countUniqueSeats": 2
+        },
+        {
+            "rooms_fullname": "Hennings",
+            "countUniqueSeats": 5
+        },
+        {
+            "rooms_fullname": "Henry Angus",
+            "countUniqueSeats": 15
+        },
+        {
+            "rooms_fullname": "Hugh Dempster Pavilion",
+            "countUniqueSeats": 4
+        },
+        {
+            "rooms_fullname": "Iona Building",
+            "countUniqueSeats": 2
+        },
+        {
+            "rooms_fullname": "Irving K Barber Learning Centre",
+            "countUniqueSeats": 10
+        },
+        {
+            "rooms_fullname": "Jack Bell Building for the School of Social Work",
+            "countUniqueSeats": 5
+        },
+        {
+            "rooms_fullname": "Leonard S. Klinck (also known as CSCI)",
+            "countUniqueSeats": 4
+        },
+        {
+            "rooms_fullname": "Life Sciences Centre",
+            "countUniqueSeats": 2
+        },
+        {
+            "rooms_fullname": "MacLeod",
+            "countUniqueSeats": 5
+        },
+        {
+            "rooms_fullname": "MacMillan",
+            "countUniqueSeats": 8
+        },
+        {
+            "rooms_fullname": "Mathematics",
+            "countUniqueSeats": 5
+        },
+        {
+            "rooms_fullname": "Mathematics Annex",
+            "countUniqueSeats": 1
+        },
+        {
+            "rooms_fullname": "Neville Scarfe",
+            "countUniqueSeats": 7
+        },
+        {
+            "rooms_fullname": "Orchard Commons",
+            "countUniqueSeats": 5
+        },
+        {
+            "rooms_fullname": "Pharmaceutical Sciences Building",
+            "countUniqueSeats": 5
+        },
+        {
+            "rooms_fullname": "Ponderosa Commons: Oak House",
+            "countUniqueSeats": 2
+        },
+        {
+            "rooms_fullname": "Robert F. Osborne Centre",
+            "countUniqueSeats": 3
+        },
+        {
+            "rooms_fullname": "School of Population and Public Health",
+            "countUniqueSeats": 6
+        },
+        {
+            "rooms_fullname": "Student Recreation Centre",
+            "countUniqueSeats": 1
+        },
+        {
+            "rooms_fullname": "The Leon and Thea Koerner University Centre",
+            "countUniqueSeats": 3
+        },
+        {
+            "rooms_fullname": "War Memorial Gymnasium",
+            "countUniqueSeats": 2
+        },
+        {
+            "rooms_fullname": "Wesbrook",
+            "countUniqueSeats": 2
+        },
+        {
+            "rooms_fullname": "West Mall Swing Space",
+            "countUniqueSeats": 5
+        },
+        {
+            "rooms_fullname": "Woodward (Instructional Resources Centre-IRC)",
+            "countUniqueSeats": 10
+        }
+    ]
+}

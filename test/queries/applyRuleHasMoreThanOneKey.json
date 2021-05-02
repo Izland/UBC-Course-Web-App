@@ -1,0 +1,40 @@
+{
+    "title": "invalid filter, insight error",
+    "query": {
+        "WHERE": {},
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_year",
+                "countUnique"
+            ],
+            "ORDER": {
+                "dir": "DOWN",
+                "keys": [
+                    "countUnique"
+                ]
+            }
+        },
+        "TRANSFORMATIONS": {
+            "GROUP": [
+                "courses_year"
+            ],
+            "APPLY": [
+                {
+                    "countUnique": {
+                        "COUNT": "courses_fail"
+                    },
+                    "count": {
+                        "COUNT": "courses_pass"
+                    }
+                },
+                {
+                    "hello": {
+                        "SUM": "courses_audit"
+                    }
+                }
+            ]
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

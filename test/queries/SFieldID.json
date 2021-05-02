@@ -1,0 +1,652 @@
+{
+    "title": "SELECT title, instructor WHERE id IS 412",
+    "query": {
+        "WHERE": {
+            "IS": {
+                "courses_id": "412"
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_title",
+                "courses_instructor"
+            ],
+            "ORDER": "courses_instructor"
+        }
+    },
+    "isQueryValid": true,
+    "result": [
+        {
+            "courses_title": "dostoevsky trnsl",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "dostoevsky trnsl",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "dostoevsky trnsl",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "top immun resrch",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "top immun resrch",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "top immun resrch",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "top immun resrch",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "top immun resrch",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "top immun resrch",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "top immun resrch",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "top immun resrch",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "top immun resrch",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "top immun resrch",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "taxn trst&estate",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "taxn trst&estate",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "taxn trst&estate",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "taxn trst&estate",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "water mgmt",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "water mgmt",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "water mgmt",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "water mgmt",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "water mgmt",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "water mgmt",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "water mgmt",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "water mgmt",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "opt wavegds&phns",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "trends & topics",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "trends & topics",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "trends & topics",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "trends & topics",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "trends & topics",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "trends & topics",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "trends & topics",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "trends & topics",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "mcro syst dsgn",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "negotiation",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "negotiation",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "negotiation",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "negotiation",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "negotiation",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "negotiation",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "negotiation",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "negotiation",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "negotiation",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "atoms&molecules",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "phytogeography",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "phytogeography",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "phytogeography",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "phytogeography",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "phytogeography",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "phytogeography",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "phytogeography",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "phytogeography",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "phytogeography",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "adul educ",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "adul educ",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "adul educ",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "adul educ",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "adul educ",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "adul educ",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "adul educ",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "adul educ",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "adul educ",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "adul educ",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "adul educ",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "adul educ",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "adul educ",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "adul educ",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "adul educ",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "adul educ",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "adul educ",
+            "courses_instructor": ""
+        },
+        {
+            "courses_title": "water mgmt",
+            "courses_instructor": "bakker, karen jessica"
+        },
+        {
+            "courses_title": "water mgmt",
+            "courses_instructor": "bakker, karen jessica"
+        },
+        {
+            "courses_title": "water mgmt",
+            "courses_instructor": "bakker, karen jessica"
+        },
+        {
+            "courses_title": "water mgmt",
+            "courses_instructor": "bakker, karen jessica"
+        },
+        {
+            "courses_title": "water mgmt",
+            "courses_instructor": "bakker, karen jessica"
+        },
+        {
+            "courses_title": "water mgmt",
+            "courses_instructor": "bakker, karen jessica"
+        },
+        {
+            "courses_title": "dostoevsky trnsl",
+            "courses_instructor": "bowers, katherine"
+        },
+        {
+            "courses_title": "dostoevsky trnsl",
+            "courses_instructor": "bowers, katherine"
+        },
+        {
+            "courses_title": "water mgmt",
+            "courses_instructor": "chappells, heather"
+        },
+        {
+            "courses_title": "mcro syst dsgn",
+            "courses_instructor": "davies, paul"
+        },
+        {
+            "courses_title": "trends & topics",
+            "courses_instructor": "donnelly, leeann"
+        },
+        {
+            "courses_title": "trends & topics",
+            "courses_instructor": "donnelly, leeann"
+        },
+        {
+            "courses_title": "trends & topics",
+            "courses_instructor": "donnelly, leeann"
+        },
+        {
+            "courses_title": "trends & topics",
+            "courses_instructor": "donnelly, leeann"
+        },
+        {
+            "courses_title": "trends & topics",
+            "courses_instructor": "donnelly, leeann;mcfarlane, rae"
+        },
+        {
+            "courses_title": "trends & topics",
+            "courses_instructor": "donnelly, leeann;mcfarlane, rae"
+        },
+        {
+            "courses_title": "adul educ",
+            "courses_instructor": "falk, clifford"
+        },
+        {
+            "courses_title": "adul educ",
+            "courses_instructor": "falk, clifford"
+        },
+        {
+            "courses_title": "adul educ",
+            "courses_instructor": "falk, clifford"
+        },
+        {
+            "courses_title": "adul educ",
+            "courses_instructor": "falk, clifford"
+        },
+        {
+            "courses_title": "adul educ",
+            "courses_instructor": "falk, clifford"
+        },
+        {
+            "courses_title": "adul educ",
+            "courses_instructor": "falk, clifford"
+        },
+        {
+            "courses_title": "adul educ",
+            "courses_instructor": "falk, clifford"
+        },
+        {
+            "courses_title": "adul educ",
+            "courses_instructor": "falk, clifford"
+        },
+        {
+            "courses_title": "negotiation",
+            "courses_instructor": "granot, daniel"
+        },
+        {
+            "courses_title": "negotiation",
+            "courses_instructor": "granot, daniel"
+        },
+        {
+            "courses_title": "negotiation",
+            "courses_instructor": "granot, daniel"
+        },
+        {
+            "courses_title": "negotiation",
+            "courses_instructor": "granot, daniel"
+        },
+        {
+            "courses_title": "negotiation",
+            "courses_instructor": "granot, daniel"
+        },
+        {
+            "courses_title": "negotiation",
+            "courses_instructor": "granot, daniel"
+        },
+        {
+            "courses_title": "negotiation",
+            "courses_instructor": "granot, daniel"
+        },
+        {
+            "courses_title": "negotiation",
+            "courses_instructor": "granot, daniel"
+        },
+        {
+            "courses_title": "negotiation",
+            "courses_instructor": "granot, daniel"
+        },
+        {
+            "courses_title": "negotiation",
+            "courses_instructor": "granot, daniel"
+        },
+        {
+            "courses_title": "negotiation",
+            "courses_instructor": "granot, daniel"
+        },
+        {
+            "courses_title": "negotiation",
+            "courses_instructor": "granot, daniel"
+        },
+        {
+            "courses_title": "negotiation",
+            "courses_instructor": "granot, frieda"
+        },
+        {
+            "courses_title": "negotiation",
+            "courses_instructor": "granot, frieda"
+        },
+        {
+            "courses_title": "negotiation",
+            "courses_instructor": "granot, frieda"
+        },
+        {
+            "courses_title": "negotiation",
+            "courses_instructor": "granot, frieda"
+        },
+        {
+            "courses_title": "negotiation",
+            "courses_instructor": "granot, frieda"
+        },
+        {
+            "courses_title": "negotiation",
+            "courses_instructor": "granot, frieda"
+        },
+        {
+            "courses_title": "top immun resrch",
+            "courses_instructor": "harder, kenneth;johnson, pauline"
+        },
+        {
+            "courses_title": "top immun resrch",
+            "courses_instructor": "harder, kenneth;johnson, pauline"
+        },
+        {
+            "courses_title": "top immun resrch",
+            "courses_instructor": "harder, kenneth;johnson, pauline"
+        },
+        {
+            "courses_title": "top immun resrch",
+            "courses_instructor": "harder, kenneth;johnson, pauline"
+        },
+        {
+            "courses_title": "top immun resrch",
+            "courses_instructor": "harder, kenneth;johnson, pauline"
+        },
+        {
+            "courses_title": "top immun resrch",
+            "courses_instructor": "harder, kenneth;johnson, pauline"
+        },
+        {
+            "courses_title": "top immun resrch",
+            "courses_instructor": "harder, kenneth;johnson, pauline"
+        },
+        {
+            "courses_title": "phytogeography",
+            "courses_instructor": "hawkes, michael"
+        },
+        {
+            "courses_title": "phytogeography",
+            "courses_instructor": "hawkes, michael"
+        },
+        {
+            "courses_title": "phytogeography",
+            "courses_instructor": "hawkes, michael"
+        },
+        {
+            "courses_title": "phytogeography",
+            "courses_instructor": "hawkes, michael"
+        },
+        {
+            "courses_title": "phytogeography",
+            "courses_instructor": "hawkes, michael"
+        },
+        {
+            "courses_title": "opt wavegds&phns",
+            "courses_instructor": "jaeger, nicolas a"
+        },
+        {
+            "courses_title": "top immun resrch",
+            "courses_instructor": "johnson, pauline"
+        },
+        {
+            "courses_title": "phytogeography",
+            "courses_instructor": "kopp, christopher"
+        },
+        {
+            "courses_title": "phytogeography",
+            "courses_instructor": "kopp, christopher"
+        },
+        {
+            "courses_title": "water mgmt",
+            "courses_instructor": "kurian, mathew"
+        },
+        {
+            "courses_title": "trends & topics",
+            "courses_instructor": "mcfarlane, rae"
+        },
+        {
+            "courses_title": "trends & topics",
+            "courses_instructor": "mcfarlane, rae"
+        },
+        {
+            "courses_title": "trends & topics",
+            "courses_instructor": "mcfarlane, rae"
+        },
+        {
+            "courses_title": "trends & topics",
+            "courses_instructor": "mcfarlane, rae"
+        },
+        {
+            "courses_title": "atoms&molecules",
+            "courses_instructor": "momose, takamasa"
+        },
+        {
+            "courses_title": "adul educ",
+            "courses_instructor": "palacios, carolina"
+        },
+        {
+            "courses_title": "adul educ",
+            "courses_instructor": "palacios, carolina"
+        },
+        {
+            "courses_title": "adul educ",
+            "courses_instructor": "palacios, carolina"
+        },
+        {
+            "courses_title": "adul educ",
+            "courses_instructor": "palacios, carolina"
+        },
+        {
+            "courses_title": "adul educ",
+            "courses_instructor": "palacios, carolina"
+        },
+        {
+            "courses_title": "adul educ",
+            "courses_instructor": "palacios, carolina"
+        },
+        {
+            "courses_title": "adul educ",
+            "courses_instructor": "palacios, carolina"
+        },
+        {
+            "courses_title": "adul educ",
+            "courses_instructor": "palacios, carolina"
+        },
+        {
+            "courses_title": "adul educ",
+            "courses_instructor": "palacios, carolina"
+        },
+        {
+            "courses_title": "adul educ",
+            "courses_instructor": "palacios, carolina"
+        },
+        {
+            "courses_title": "adul educ",
+            "courses_instructor": "palacios, carolina"
+        },
+        {
+            "courses_title": "adul educ",
+            "courses_instructor": "palacios, carolina"
+        },
+        {
+            "courses_title": "adul educ",
+            "courses_instructor": "palacios, carolina"
+        },
+        {
+            "courses_title": "adul educ",
+            "courses_instructor": "palacios, carolina"
+        },
+        {
+            "courses_title": "adul educ",
+            "courses_instructor": "palacios, carolina"
+        },
+        {
+            "courses_title": "adul educ",
+            "courses_instructor": "palacios, carolina"
+        },
+        {
+            "courses_title": "adul educ",
+            "courses_instructor": "palacios, carolina"
+        },
+        {
+            "courses_title": "adul educ",
+            "courses_instructor": "palacios, carolina"
+        },
+        {
+            "courses_title": "adul educ",
+            "courses_instructor": "palacios, carolina"
+        },
+        {
+            "courses_title": "adul educ",
+            "courses_instructor": "palacios, carolina"
+        },
+        {
+            "courses_title": "dostoevsky trnsl",
+            "courses_instructor": "petro, peter"
+        },
+        {
+            "courses_title": "adul educ",
+            "courses_instructor": "vanwynsberghe, robert"
+        },
+        {
+            "courses_title": "adul educ",
+            "courses_instructor": "vanwynsberghe, robert"
+        }
+    ]
+}
